@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products | Metalcorex Precision Manufacturing</title>
+    <meta name="description" content="Browse Metalcorex CNC machining, injection molding, and sheet metal fabrication product examples.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="products-page">
+    <header class="site-header solid-header">
+      <a class="brand" href="index.html#top" aria-label="Metalcorex home">
+        <span class="brand-mark">M</span>
+        <span>Metalcorex</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html#capabilities">Capabilities</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#quality">Quality</a>
+        <a href="index.html#quote">RFQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-hero">
+        <div class="tech-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+        <div class="product-hero-content reveal">
+          <p class="eyebrow">Product Gallery</p>
+          <h1>Manufacturing examples by process.</h1>
+          <p>Browse CNC machining, injection molding, and sheet metal fabrication examples for custom components made to drawing, sample, or project specification.</p>
+        </div>
+      </section>
+
+      <section class="section category-console reveal" aria-label="Product categories">
+        <div class="category-tabs" role="tablist" aria-label="Product category filters">
+          <button class="category-tab is-active" type="button" data-category="all">All</button>
+          <button class="category-tab" type="button" data-category="cnc">CNC Machining</button>
+          <button class="category-tab" type="button" data-category="injection">Injection Molding</button>
+          <button class="category-tab" type="button" data-category="sheet-metal">Sheet Metal</button>
+        </div>
+      </section>
+
+      <section class="section product-catalog reveal">
+        <div class="catalog-heading">
+          <div>
+            <p class="eyebrow">Catalog</p>
+            <h2 id="catalogTitle">All Product Examples</h2>
+          </div>
+          <a class="button primary" href="index.html#quote">Send RFQ</a>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+          <article class="catalog-card holo-card" data-category="cnc">
+            <img src="assets/product-cnc.png" alt="CNC machined metal components">
+            <div>
+              <p class="product-type">CNC Machining</p>
+              <h3>Aluminum & Steel Machined Parts</h3>
+              <p>Housings, brackets, fixture parts, shafts, bushings, and precision prototypes.</p>
+              <div class="spec-list">
+                <span>6061 / 7075</span>
+                <span>Stainless Steel</span>
+                <span>Anodizing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card holo-card" data-category="injection">
+            <img src="assets/product-injection.png" alt="Injection molded plastic components">
+            <div>
+              <p class="product-type">Injection Molding</p>
+              <h3>Plastic Housings & Functional Parts</h3>
+              <p>Tooling review, molded production, colors, textures, inserts, and assembly support.</p>
+              <div class="spec-list">
+                <span>ABS / PC</span>
+                <span>PA / POM</span>
+                <span>Texture</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card holo-card" data-category="sheet-metal">
+            <img src="assets/product-sheet-metal.png" alt="Sheet metal fabricated enclosures and panels">
+            <div>
+              <p class="product-type">Sheet Metal</p>
+              <h3>Enclosures, Panels & Brackets</h3>
+              <p>Laser cutting, bending, welding, tapping, riveting, and powder coating.</p>
+              <div class="spec-list">
+                <span>Laser Cut</span>
+                <span>Bending</span>
+                <span>Welding</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Metalcorex. Custom precision manufacturing.</span>
+      <a href="index.html#top">Back to home</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+  </body>
+</html>

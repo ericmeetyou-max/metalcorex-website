@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery Admin | Metalcorex</title>
+    <meta name="description" content="Metalcorex product gallery management preview.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="products-page admin-page">
+    <header class="site-header solid-header">
+      <a class="brand" href="index.html#top" aria-label="Metalcorex home">
+        <span class="brand-mark">M</span>
+        <span>Metalcorex</span>
+      </a>
+      <nav class="nav" aria-label="Admin navigation">
+        <a href="products.html">Public Gallery</a>
+        <a href="index.html#quote">RFQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-hero admin-hero">
+        <div class="tech-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+        <div class="product-hero-content reveal">
+          <p class="eyebrow">Gallery Admin</p>
+          <h1>Upload product photos for the Gallery.</h1>
+          <p>This static admin preview stores photos in the current browser. When the site is connected to Cloudflare storage, this page can become the real backend upload screen.</p>
+        </div>
+      </section>
+
+      <section class="section category-console reveal">
+        <div class="admin-grid">
+          <section class="rfq-admin-panel">
+            <div class="catalog-heading">
+              <div>
+                <p class="eyebrow">RFQ Inbox</p>
+                <h2>Customer drawings and machining requirements.</h2>
+              </div>
+              <button class="button primary" type="button" id="refreshRfqs">Refresh</button>
+            </div>
+            <label>
+              Admin token
+              <input id="adminToken" type="password" autocomplete="current-password" placeholder="Set in Cloudflare as ADMIN_TOKEN">
+            </label>
+            <div class="rfq-list" id="rfqList">
+              <p class="form-note">No RFQ records loaded yet.</p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="section category-console reveal">
+        <div class="upload-console">
+          <div>
+            <p class="eyebrow">Product Upload</p>
+            <h2>Add photos by process category.</h2>
+            <p>The public Gallery page has no upload controls. This page is for internal product image preparation.</p>
+          </div>
+          <form id="uploadForm" class="upload-form">
+            <label>
+              Category
+              <select name="category">
+                <option value="cnc">CNC machining</option>
+                <option value="injection">Injection molding</option>
+                <option value="sheet-metal">Sheet metal fabrication</option>
+              </select>
+            </label>
+            <label>
+              Product name
+              <input name="title" placeholder="Aluminum CNC housing" required>
+            </label>
+            <label>
+              Short description
+              <input name="description" placeholder="Material, finish, process, application">
+            </label>
+            <label class="file-drop">
+              <input name="photos" type="file" accept="image/*" multiple required>
+              <span>Choose product photos</span>
+            </label>
+            <button class="button primary full" type="submit">Add to Gallery</button>
+            <button class="button ghost full" type="button" id="clearUploads">Clear Local Uploads</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section product-catalog reveal">
+        <div class="catalog-heading">
+          <div>
+            <p class="eyebrow">Preview</p>
+            <h2 id="catalogTitle">All Product Examples</h2>
+          </div>
+          <div class="category-tabs compact-tabs" role="tablist" aria-label="Product category filters">
+            <button class="category-tab is-active" type="button" data-category="all">All</button>
+            <button class="category-tab" type="button" data-category="cnc">CNC</button>
+            <button class="category-tab" type="button" data-category="injection">Molding</button>
+            <button class="category-tab" type="button" data-category="sheet-metal">Sheet Metal</button>
+          </div>
+        </div>
+
+        <div class="catalog-grid" id="catalogGrid">
+          <article class="catalog-card holo-card" data-category="cnc">
+            <img src="assets/product-cnc.png" alt="CNC machined metal components">
+            <div>
+              <p class="product-type">CNC Machining</p>
+              <h3>Aluminum & Steel Machined Parts</h3>
+              <p>Housings, brackets, fixture parts, shafts, bushings, and precision prototypes.</p>
+              <div class="spec-list">
+                <span>6061 / 7075</span>
+                <span>Stainless Steel</span>
+                <span>Anodizing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card holo-card" data-category="injection">
+            <img src="assets/product-injection.png" alt="Injection molded plastic components">
+            <div>
+              <p class="product-type">Injection Molding</p>
+              <h3>Plastic Housings & Functional Parts</h3>
+              <p>Tooling review, molded production, colors, textures, inserts, and assembly support.</p>
+              <div class="spec-list">
+                <span>ABS / PC</span>
+                <span>PA / POM</span>
+                <span>Texture</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card holo-card" data-category="sheet-metal">
+            <img src="assets/product-sheet-metal.png" alt="Sheet metal fabricated enclosures and panels">
+            <div>
+              <p class="product-type">Sheet Metal</p>
+              <h3>Enclosures, Panels & Brackets</h3>
+              <p>Laser cutting, bending, welding, tapping, riveting, and powder coating.</p>
+              <div class="spec-list">
+                <span>Laser Cut</span>
+                <span>Bending</span>
+                <span>Welding</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span id="year"></span> Metalcorex. Internal gallery management.</span>
+      <a href="products.html">Public gallery</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+    <script src="rfq-admin.js"></script>
+  </body>
+</html>
