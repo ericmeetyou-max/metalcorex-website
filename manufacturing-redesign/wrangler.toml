@@ -1,0 +1,27 @@
+name = "metalcorex"
+main = "website/worker.js"
+compatibility_date = "2026-06-23"
+routes = [
+  { pattern = "metalcorex.com/*", zone_name = "metalcorex.com" },
+  { pattern = "www.metalcorex.com/*", zone_name = "metalcorex.com" }
+]
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
+run_worker_first = ["/", "/index.html", "/about", "/about/", "/about.html", "/quality", "/quality/", "/quality.html", "/blog-cnc-machining-basics.html", "/blog-cnc-tolerances.html", "/blog-material-selection.html", "/blog-sheet-metal-fabrication.html", "/blog-surface-treatment-guide.html", "/assets/ai-visuals/cmm-quality-inspection.avif", "/admin", "/admin/", "/admin.html", "/admin-login", "/admin-logout", "/api/*", "/site-media/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "metalcorex-rfq"
+database_id = "fdac8d5b-f843-479e-ab38-e3b1d2b736d0"
+
+[[r2_buckets]]
+binding = "RFQ_FILES"
+bucket_name = "metalcorex-rfq-files"
+
+[vars]
+SMTP_HOST = "smtp0001.neo.space"
+SMTP_PORT = "465"
+SMTP_FROM = "mason.h@metalcorex.com"
+RFQ_TO_EMAIL = "sales@metalcorex.com"

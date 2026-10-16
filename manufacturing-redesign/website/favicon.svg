@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" role="img" aria-labelledby="title desc">
+  <title id="title">Metalcorex</title>
+  <desc id="desc">Metalcorex brand mark</desc>
+  <defs>
+    <linearGradient id="metalcorex-a" x1="12" y1="8" x2="78" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7DF"/>
+      <stop offset="0.52" stop-color="#168B6B"/>
+      <stop offset="1" stop-color="#C4873B"/>
+    </linearGradient>
+  </defs>
+  <rect width="88" height="88" rx="18" fill="#081412"/>
+  <path fill="#081412" d="M44 5 82 27v34L44 83 6 61V27z"/>
+  <path stroke="url(#metalcorex-a)" stroke-width="5.5" d="M44 11.5 76.4 30v28L44 76.5 11.6 58V30z"/>
+  <path fill="#fff" d="M25 59V28h8.7l10.4 17.9L54.5 28H63v31h-8.3V42.5l-8.4 14h-4.4l-8.4-14V59z"/>
+</svg>

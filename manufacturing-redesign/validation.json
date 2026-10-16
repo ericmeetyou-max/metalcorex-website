@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "aluminum-extrusion.html",
+    "3d-printing.html",
+    "index.html",
+    "about.html",
+    "contact.html",
+    "cnc-machining.html",
+    "materials.html",
+    "assembly-services.html",
+    "injection-molding.html",
+    "processes.html",
+    "sheet-metal-fabrication.html",
+    "die-casting.html",
+    "quality.html",
+    "services.html"
+  ],
+  "count": 14,
+  "errors": [],
+  "backend_source_excluded_from_static_assets": true
+}
