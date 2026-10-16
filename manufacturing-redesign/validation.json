@@ -7,15 +7,17 @@
     "contact.html",
     "cnc-machining.html",
     "materials.html",
+    "terms.html",
     "assembly-services.html",
     "injection-molding.html",
     "processes.html",
     "sheet-metal-fabrication.html",
     "die-casting.html",
     "quality.html",
-    "services.html"
+    "services.html",
+    "privacy.html"
   ],
-  "count": 14,
+  "count": 16,
   "errors": [],
   "backend_source_excluded_from_static_assets": true
 }
