@@ -1,27 +1,28 @@
 {
   "site": "https://metalcorex.com",
-  "version": "449e05fb-4ea0-4791-9cc6-03a81511ed37",
+  "version": "3ef9c439-2eee-4243-9a7b-c5d8336d9699",
   "date": "2026-10-17",
-  "pages": 16,
+  "pages": 17,
   "workflow_steps": 42,
   "design_considerations": 28,
   "FAQs": 21,
   "local_validation": "passed",
   "rfq_tests": "3 passed; no production test inquiries sent",
   "browser_checks": [
-    "desktop 1440px",
-    "mobile 390px without page overflow",
-    "click and arrow-key process tabs",
-    "mobile capability menu",
-    "FAQ expansion",
-    "RFQ process preselection"
+    "1440px desktop, 900px tablet, 390px mobile; no horizontal page overflow",
+    "Category filtering and visible counts",
+    "Image dialog next/previous, Escape and focus restoration",
+    "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "133f45e7-09a7-4724-8664-dfcb0b941ec1",
+  "previous_version": "449e05fb-4ea0-4791-9cc6-03a81511ed37",
   "live_verification": [
-    "Homepage renders expanded design",
-    "Process explorer switches to 3D printing",
-    "Live 3D printing page contains six process steps and three FAQs",
-    "Live HTML references optimized WebP assets"
-  ]
+    "Homepage references all seven process-v3 image families",
+    "Homepage contains twelve component cards",
+    "/components renders twenty-four references",
+    "Live CNC filter returns four components and image viewer works"
+  ],
+  "new_process_images": 7,
+  "homepage_components": 12,
+  "gallery_components": 24
 }

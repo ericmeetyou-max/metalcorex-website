@@ -24,3 +24,8 @@ Prompt brief: Premium landscape 3:2 studio photograph of a white nylon lattice b
 These image files preserve the generated originals without creative post-editing. The site uses CSS object-fit for responsive display.
 
 Web delivery uses same-dimension WebP encoding at quality 88; PNG originals remain included. See IMAGE-PROMPTS.txt for exact prompts.
+
+Revision 3 — 2026-10-17:
+Seven new process illustrations in website/assets/process-v3, generated using built-in image_gen. Exact prompts and asset paths: PROCESS-IMAGES.json. Original generated PNGs are preserved in the user deliverable outputs/metalcorex-image-upgrade/originals. WebP variants use quality 90 at original size and quality 88 at 768×512. Only delivery-format conversion and proportional resampling were applied.
+
+The 24 component references come from the pre-existing website/assets/product-catalog-v2 collection. Their image content was not modified. Reference titles, manufacturing categories and quote links were added for browsing; no customer-project, performance or certification claims were added.

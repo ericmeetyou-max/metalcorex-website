@@ -5,6 +5,7 @@
     "index.html",
     "about.html",
     "contact.html",
+    "components.html",
     "cnc-machining.html",
     "materials.html",
     "terms.html",
@@ -17,7 +18,7 @@
     "services.html",
     "privacy.html"
   ],
-  "count": 16,
+  "count": 17,
   "errors": [],
   "backend_source_excluded_from_static_assets": true
 }

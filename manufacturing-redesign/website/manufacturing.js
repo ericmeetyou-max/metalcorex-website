@@ -9,3 +9,44 @@ document.querySelectorAll('[role="tablist"]').forEach(list=>{
 const mega=document.querySelector('.mega');
 document.addEventListener('click',e=>{if(mega&&!mega.contains(e.target))mega.open=false});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&mega?.open){mega.open=false;mega.querySelector('summary').focus()}});
+// Component browsing remains local to the page; RFQ links carry the selected reference.
+const componentDialog=document.querySelector('.component-dialog');
+let componentButtons=[],componentPosition=0,componentOpener=null;
+function showComponent(index){
+ componentPosition=(index+componentButtons.length)%componentButtons.length;
+ const item=componentButtons[componentPosition],d=item.dataset;
+ const photo=componentDialog.querySelector('.dialog-photo>img');
+ photo.src=d.componentImage;photo.alt=d.componentTitle+' component reference';
+ componentDialog.querySelector('#component-dialog-title').textContent=d.componentTitle;
+ componentDialog.querySelector('.dialog-process').textContent=d.componentProcess;
+ componentDialog.querySelector('.dialog-description').textContent=d.componentDesc;
+ componentDialog.querySelector('.dialog-rfq').href=d.componentRfq;
+ componentDialog.querySelector('.dialog-counter').textContent=`${componentPosition+1} / ${componentButtons.length}`;
+}
+document.querySelectorAll('.component-gallery').forEach(gallery=>{
+ const cards=[...gallery.querySelectorAll('.component-card')];
+ gallery.querySelectorAll('[data-component-filter]').forEach(button=>button.addEventListener('click',()=>{
+  gallery.querySelectorAll('[data-component-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  const category=button.dataset.componentFilter;
+  cards.forEach(card=>{card.hidden=category!=='all'&&card.dataset.componentCategory!==category});
+  const count=cards.filter(c=>!c.hidden).length;
+  gallery.querySelector('.component-count').textContent=`${count} component${count===1?'':'s'}`;
+ }));
+ gallery.querySelectorAll('.component-photo').forEach(button=>button.addEventListener('click',()=>{
+  if(!componentDialog)return;
+  componentButtons=cards.filter(c=>!c.hidden).map(c=>c.querySelector('.component-photo'));
+  componentOpener=button;showComponent(componentButtons.indexOf(button));
+  componentDialog.showModal();document.body.classList.add('gallery-dialog-open');
+ }));
+});
+if(componentDialog){
+ componentDialog.querySelector('.dialog-close').addEventListener('click',()=>componentDialog.close());
+ componentDialog.querySelector('[data-gallery-prev]').addEventListener('click',()=>showComponent(componentPosition-1));
+ componentDialog.querySelector('[data-gallery-next]').addEventListener('click',()=>showComponent(componentPosition+1));
+ componentDialog.addEventListener('keydown',event=>{
+  if(event.key==='ArrowRight'){event.preventDefault();showComponent(componentPosition+1)}
+  if(event.key==='ArrowLeft'){event.preventDefault();showComponent(componentPosition-1)}
+ });
+ componentDialog.addEventListener('click',event=>{if(event.target===componentDialog){const r=componentDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)componentDialog.close()}});
+ componentDialog.addEventListener('close',()=>{document.body.classList.remove('gallery-dialog-open');componentOpener?.focus()});
+}

@@ -42,3 +42,11 @@ The expanded design includes image-led service cards, an accessible seven-tab pr
 Xometry was used as a reference for information hierarchy (capabilities, processes, materials, design guidance and FAQs). No Xometry assets, proprietary text, certification claims or capability figures were copied. The manufacturing descriptions are original general process guidance; project-specific feasibility and acceptance criteria require quotation review.
 
 Two new AI-generated representative component illustrations are used on the site and labeled as illustrations. Existing project asset-library photos and material samples are reused. Image and content provenance is recorded in `DESIGN-SOURCES.txt`.
+
+## Image and component-gallery revision — 2026-10-17
+
+Seven new 1536×1024 illustrative process images replace the prior capability imagery on the homepage, process explorer and service heroes. Each has a full WebP version and a 768px responsive card variant; all seven card variants total 437,084 bytes. Process illustrations are labeled and the exact built-in image generation prompts are preserved in `PROCESS-IMAGES.json`.
+
+The homepage now contains 12 component references from the existing product asset library. `/components` offers all 24 references with category filters, an accessible native-dialog image viewer, previous/next and keyboard controls, and RFQ links that preselect the component name and process. The product images are references for custom manufacturing, not stocked items or claims of completed customer projects.
+
+Validated at 1440px, 900px and 390px, including category counts, image viewer navigation, Escape/focus return and RFQ parameter handoff. All 17 redesigned pages pass static validation; the three isolated RFQ regression tests pass.
