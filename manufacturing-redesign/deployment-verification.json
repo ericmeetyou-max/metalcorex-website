@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "1cd3abf5-8fcd-40e5-9ec1-9fc551bf83da",
+  "version": "449e05fb-4ea0-4791-9cc6-03a81511ed37",
   "date": "2026-10-17",
   "pages": 16,
   "workflow_steps": 42,
@@ -17,5 +17,11 @@
     "RFQ process preselection"
   ],
   "backend": "unchanged",
-  "previous_version": "133f45e7-09a7-4724-8664-dfcb0b941ec1"
+  "previous_version": "133f45e7-09a7-4724-8664-dfcb0b941ec1",
+  "live_verification": [
+    "Homepage renders expanded design",
+    "Process explorer switches to 3D printing",
+    "Live 3D printing page contains six process steps and three FAQs",
+    "Live HTML references optimized WebP assets"
+  ]
 }

@@ -22,3 +22,5 @@ website/assets/printed-parts-illustration.png
 Prompt brief: Premium landscape 3:2 studio photograph of a white nylon lattice bracket, charcoal polymer housing with visible layer lines and translucent pale-blue resin component on a gray tabletop. Soft light; no text or logos. Representative additive components, not a customer project claim.
 
 These image files preserve the generated originals without creative post-editing. The site uses CSS object-fit for responsive display.
+
+Web delivery uses same-dimension WebP encoding at quality 88; PNG originals remain included. See IMAGE-PROMPTS.txt for exact prompts.
