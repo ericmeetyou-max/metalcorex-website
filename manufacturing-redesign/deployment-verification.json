@@ -1,0 +1,21 @@
+{
+  "site": "https://metalcorex.com",
+  "version": "1cd3abf5-8fcd-40e5-9ec1-9fc551bf83da",
+  "date": "2026-10-17",
+  "pages": 16,
+  "workflow_steps": 42,
+  "design_considerations": 28,
+  "FAQs": 21,
+  "local_validation": "passed",
+  "rfq_tests": "3 passed; no production test inquiries sent",
+  "browser_checks": [
+    "desktop 1440px",
+    "mobile 390px without page overflow",
+    "click and arrow-key process tabs",
+    "mobile capability menu",
+    "FAQ expansion",
+    "RFQ process preselection"
+  ],
+  "backend": "unchanged",
+  "previous_version": "133f45e7-09a7-4724-8664-dfcb0b941ec1"
+}

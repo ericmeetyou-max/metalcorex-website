@@ -34,3 +34,11 @@ npm run deploy
 Deploy only to the original `metalcorex` Worker. Keep existing database and R2 bindings, runtime secrets and environment variables. Do not use the `metalcorex-audio` project for this deployment. The website sends RFQs through the existing `/api/rfq` backend. Use simulated SMTP for testing; do not send live test messages without approval.
 
 The new front end includes 7 capability detail pages, homepage, capabilities overview, materials and finishes, quality, about, process, contact and matching legal page layouts. Older product and blog URLs remain available. Canonical URLs and the sitemap use metalcorex.com.
+
+## Visual and content revision — 2026-10-17
+
+The expanded design includes image-led service cards, an accessible seven-tab process explorer, an icon-based navigation menu, 42 process-specific manufacturing steps, 28 design considerations and 21 expandable FAQs. Material, finish, application and project-workflow sections support the 16 redesigned pages. Polymer and assembly pages have process-appropriate secondary-operation guidance. Desktop and 390px mobile layouts, keyboard tab navigation, mobile menus, FAQs and RFQ process preselection were checked in-browser. Static page validation and all three isolated RFQ backend tests pass.
+
+Xometry was used as a reference for information hierarchy (capabilities, processes, materials, design guidance and FAQs). No Xometry assets, proprietary text, certification claims or capability figures were copied. The manufacturing descriptions are original general process guidance; project-specific feasibility and acceptance criteria require quotation review.
+
+Two new AI-generated representative component illustrations are used on the site and labeled as illustrations. Existing project asset-library photos and material samples are reused. Image and content provenance is recorded in `DESIGN-SOURCES.txt`.
