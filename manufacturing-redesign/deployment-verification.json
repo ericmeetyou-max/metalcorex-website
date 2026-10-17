@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "3ef9c439-2eee-4243-9a7b-c5d8336d9699",
+  "version": "937445a0-4e22-43b2-b8ce-4142b0547543",
   "date": "2026-10-17",
   "pages": 17,
   "workflow_steps": 42,
@@ -15,7 +15,7 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "449e05fb-4ea0-4791-9cc6-03a81511ed37",
+  "previous_version": "3ef9c439-2eee-4243-9a7b-c5d8336d9699",
   "live_verification": [
     "Homepage references all seven process-v3 image families",
     "Homepage contains twelve component cards",
@@ -24,5 +24,9 @@
   ],
   "new_process_images": 7,
   "homepage_components": 12,
-  "gallery_components": 24
+  "gallery_components": 24,
+  "logo_update": {
+    "source": "Owner-supplied accent1.svg and blob-once.svg",
+    "validation": "Desktop and mobile wordmarks verified; live header/footer SVGs load and favicon link updated; original path geometry preserved"
+  }
 }
