@@ -54,9 +54,15 @@ const prefillRfqFromUrl = () => {
   const part = params.get("part");
   const process = params.get("process");
   const message = params.get("message");
+  const material = params.get("material");
+  const materialInput = form.elements.namedItem("material");
   const partInput = form.elements.namedItem("part_name");
   const processInput = form.elements.namedItem("manufacturing_process") || form.elements.namedItem("process");
   const messageInput = form.elements.namedItem("message") || form.elements.namedItem("details");
+
+  if (material && materialInput && !materialInput.value) {
+    materialInput.value = material;
+  }
 
   if (part && partInput && !partInput.value) {
     partInput.value = part;

@@ -47,7 +47,7 @@ Two new AI-generated representative component illustrations are used on the site
 
 Seven new 1536×1024 illustrative process images replace the prior capability imagery on the homepage, process explorer and service heroes. Each has a full WebP version and a 768px responsive card variant; all seven card variants total 437,084 bytes. Process illustrations are labeled and the exact built-in image generation prompts are preserved in `PROCESS-IMAGES.json`.
 
-The homepage now contains 12 component references from the existing product asset library. `/components` offers all 24 references with category filters, an accessible native-dialog image viewer, previous/next and keyboard controls, and RFQ links that preselect the component name and process. The product images are references for custom manufacturing, not stocked items or claims of completed customer projects.
+The homepage and `/components` now show 12 multi-part material collections across brass, stainless steel, engineering plastics, silicone, steel and aluminum alloys. Two collections per material use bright studio imagery and natural material colors. Material filters, the accessible image viewer and keyboard controls are preserved. RFQ links preselect the collection, process and material. These are labeled AI-generated reference illustrations rather than stocked items or completed customer projects.
 
 Validated at 1440px, 900px and 390px, including category counts, image viewer navigation, Escape/focus return and RFQ parameter handoff. All 17 redesigned pages pass static validation; the three isolated RFQ regression tests pass.
 
@@ -60,3 +60,7 @@ The owner confirmed coverage of Xometry service categories except waterjet cutti
 All 42 confirmed service entries now have independent English guides with original overview copy, four process steps, three design considerations, typical applications, material context and process-specific RFQ links. The directory uses illustrated cards and navigation links directly to each guide. Fourteen new AI-generated reference images supplement the existing process imagery; captions identify illustrations. Each guide has an accessible SVG workflow. See CAPABILITY-GUIDES.json and CAPABILITY-IMAGES.json for content and image provenance.
 
 Validation: 56 modern pages pass the internal-link, image, heading and structured-data checks. All 42 guide routes, workflow SVGs and RFQ process mappings pass static verification. Desktop and mobile layouts and a representative RFQ preselection were checked in the browser. The Worker backend is unchanged.
+
+## Material collection imagery
+
+Replaced dark product imagery in both component galleries with 12 new multi-part material illustrations. Responsive 1536px/768px WebP variants use lazy loading. Desktop cards use three columns and narrow mobile layouts use one column to retain detail. Provenance and exact generation prompts are in MATERIAL-IMAGES.json; collection copy and quote mappings are in MATERIAL-COLLECTIONS.json.

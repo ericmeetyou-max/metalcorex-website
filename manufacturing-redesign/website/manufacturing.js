@@ -30,8 +30,13 @@ document.querySelectorAll('.component-gallery').forEach(gallery=>{
   const category=button.dataset.componentFilter;
   cards.forEach(card=>{card.hidden=category!=='all'&&card.dataset.componentCategory!==category});
   const count=cards.filter(c=>!c.hidden).length;
-  gallery.querySelector('.component-count').textContent=`${count} component${count===1?'':'s'}`;
+  gallery.querySelector('.component-count').textContent=`${count} collection${count===1?'':'s'}`;
  }));
+ const requestedMaterial=new URLSearchParams(location.search).get('material');
+ if(requestedMaterial){
+  const initialFilter=[...gallery.querySelectorAll('[data-component-filter]')].find(b=>b.dataset.componentFilter===requestedMaterial.toLowerCase());
+  initialFilter?.click();
+ }
  gallery.querySelectorAll('.component-photo').forEach(button=>button.addEventListener('click',()=>{
   if(!componentDialog)return;
   componentButtons=cards.filter(c=>!c.hidden).map(c=>c.querySelector('.component-photo'));
