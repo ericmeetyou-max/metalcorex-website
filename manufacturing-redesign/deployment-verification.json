@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "870533d6-cdde-4364-b38e-f4894a273dda",
+  "version": "74cf8775-02f1-438f-ada7-4499f0dee491",
   "date": "2026-10-17",
   "pages": 56,
   "workflow_steps": 192,
@@ -15,11 +15,12 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "1a090e72-98a4-4ee1-92cf-383a9cb091e0",
+  "previous_version": "870533d6-cdde-4364-b38e-f4894a273dda",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
-    "Backend unchanged; 56 modern pages pass static validation; three isolated RFQ tests pass"
+    "Backend unchanged; 56 modern pages pass static validation; three isolated RFQ tests pass",
+    "Complex five-axis aluminum collection visible live; aluminum filter now shows three collections"
   ],
   "new_process_images": 7,
   "logo_update": {
@@ -42,17 +43,21 @@
     "validation": "All guide links, images, workflow SVGs and RFQ options checked; desktop and mobile layouts verified; live Overmolding preselection verified"
   },
   "material_collections": {
-    "homepage": 12,
-    "gallery": 12,
+    "homepage": 13,
+    "gallery": 13,
     "materials": 6,
-    "photos_per_material": 2,
+    "photos_per_material": {
+      "aluminum": 3,
+      "other_materials": 2
+    },
     "first_material": "Aluminum alloys",
-    "images": "12 new AI-generated multi-part illustrations, 1536px and 768px WebP variants",
+    "images": "13 AI-generated multi-part illustrations with responsive WebP variants",
     "browser_checks": [
       "Desktop 1440px and mobile 390px, no horizontal overflow",
       "Material filters return two collections each; all returns twelve",
       "Aluminum deep link, loaded images, viewer next and Escape",
-      "Silicone RFQ preselects part, process and material"
+      "Silicone RFQ preselects part, process and material",
+      "New complex five-axis aluminum collection is first; viewer and quote link verified"
     ]
   }
 }

@@ -1,5 +1,13 @@
 [
   {
+    "name": "aluminum-five-axis",
+    "material": "aluminum",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium industrial engineering website illustration, landscape 1536x1024. A curated group of FOUR visibly complex five-axis CNC machined aluminum alloy components on a bright seamless warm white studio surface. 1: a sophisticated aluminum centrifugal impeller with clean curved swept blades and a central bore, plausible machinable geometry. 2: a sculpted thin-wall aerospace-style structural bracket with deep milled pockets, angled mounting lugs and gently curved ribs, no claim of actual aircraft use. 3: a complex curved aluminum housing with deep cavities, angled bores and precise multi-face features. 4: a compact sculptural aluminum manifold with multiple oblique drilled ports and smoothly contoured external surfaces. All parts natural bright SILVER aluminum, fine realistic milling toolpath marks, crisp realistic edges, sophisticated precise geometries; no black or dark coatings, no brass. Tasteful separated arrangement, all four parts fully visible, three-quarter camera angle, soft neutral high-key diffused lighting, subtle grounding shadows, product group fills 80 percent of frame. Distinct varied geometries, no impossible floating features or rough unfinished surfaces. No text, numbers, logos, watermarks, hands, tools, machines. Illustrative custom machining examples, not actual customer projects.",
+    "original": "originals/aluminum-five-axis.png",
+    "web": "web/aluminum-five-axis.webp"
+  },
+  {
     "name": "brass-turned",
     "material": "brass",
     "tool": "built-in image_gen",

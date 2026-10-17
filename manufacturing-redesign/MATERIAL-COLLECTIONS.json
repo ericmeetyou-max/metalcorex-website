@@ -1,5 +1,13 @@
 [
   {
+    "image": "aluminum-five-axis",
+    "title": "Complex 5-axis aluminum parts",
+    "category": "aluminum",
+    "process": "CNC Milling",
+    "material": "Aluminum alloy",
+    "description": "Swept-blade impellers, sculpted thin-wall brackets, deep-cavity housings and multi-angle manifolds. Illustrative five-axis machining geometries."
+  },
+  {
     "image": "aluminum-machined",
     "title": "Aluminum alloy CNC parts",
     "category": "aluminum",
