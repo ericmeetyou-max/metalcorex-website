@@ -1,5 +1,13 @@
 [
   {
+    "name": "large-amplifier-chassis",
+    "material": "enclosures",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium industrial B2B manufacturing website photograph, landscape 1536x1024. A carefully arranged group of FOUR LARGE sheet metal enclosure components for power amplifiers and rack-mounted industrial equipment: a wide deep open amplifier chassis with folded side walls, rows of ventilation slots, mounting bosses and rack ears; a tall empty rack-mount amplifier enclosure shell with a silver front panel and large circular and rectangular connector cutouts on a visible rear panel; a detached broad perforated ventilation top cover; a large folded internal mounting tray with slotted mounting holes. These must clearly look like LARGE wide deep equipment housings, not tiny brackets. Realistically manufacturable sheet metal bends, uniform thin sheet walls, bend reliefs, plausible screws and mounting hole patterns. No assembled electronics, no speakers, no cables. All parts natural bright silver satin sheet metal, uncoated aluminum/steel appearance, NO black-painted surfaces. Three-quarter perspective, four parts clearly separated, wide open chassis is largest focal object, composition fills 80 percent of frame with margins. Bright clean warm white studio background, soft shadows, premium realistic engineering product photography. No logos, text, dimensions, watermarks or brand names. Illustrative custom sheet metal parts, not a claim of a stocked or certified product.",
+    "original": "originals/large-amplifier-chassis.png",
+    "web": "web/large-amplifier-chassis.webp"
+  },
+  {
     "name": "stainless-316-valve",
     "material": "stainless",
     "tool": "built-in image_gen",

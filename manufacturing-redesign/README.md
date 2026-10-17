@@ -47,7 +47,7 @@ Two new AI-generated representative component illustrations are used on the site
 
 Seven new 1536×1024 illustrative process images replace the prior capability imagery on the homepage, process explorer and service heroes. Each has a full WebP version and a 768px responsive card variant; all seven card variants total 437,084 bytes. Process illustrations are labeled and the exact built-in image generation prompts are preserved in `PROCESS-IMAGES.json`.
 
-The homepage and `/components` now show 14 multi-part material collections across brass, stainless steel, engineering plastics, silicone, steel and aluminum alloys. Three aluminum and three stainless steel collections, plus two collections for each other material, use bright studio imagery and natural material colors. Material filters, the accessible image viewer and keyboard controls are preserved. RFQ links preselect the collection, process and material. These are labeled AI-generated reference illustrations rather than stocked items or completed customer projects.
+The homepage and `/components` now show 15 multi-part collections across brass, stainless steel, engineering plastics, silicone, steel and aluminum alloys. Three aluminum and three stainless steel collections, plus two collections for each other material, use bright studio imagery and natural material colors. Material filters, the accessible image viewer and keyboard controls are preserved. RFQ links preselect the collection, process and material. These are labeled AI-generated reference illustrations rather than stocked items or completed customer projects.
 
 Validated at 1440px, 900px and 390px, including category counts, image viewer navigation, Escape/focus return and RFQ parameter handoff. All 17 redesigned pages pass static validation; the three isolated RFQ regression tests pass.
 
@@ -63,8 +63,10 @@ Validation: 56 modern pages pass the internal-link, image, heading and structure
 
 ## Material collection imagery
 
-Replaced dark product imagery in both component galleries with 14 multi-part material illustrations. Responsive 1536px/768px WebP variants use lazy loading. Desktop cards use three columns and narrow mobile layouts use one column to retain detail. Provenance and exact generation prompts are in MATERIAL-IMAGES.json; collection copy and quote mappings are in MATERIAL-COLLECTIONS.json.
+Replaced dark product imagery in both component galleries with 15 multi-part component illustrations. Responsive 1536px/768px WebP variants use lazy loading. Desktop cards use three columns and narrow mobile layouts use one column to retain detail. Provenance and exact generation prompts are in MATERIAL-IMAGES.json; collection copy and quote mappings are in MATERIAL-COLLECTIONS.json.
 
 The first gallery collection shows complex five-axis aluminum reference geometries: an impeller, a sculpted bracket, a deep-cavity housing and a multi-angle manifold. Both homepage and Components include the new image, with CNC Milling and Aluminum alloy carried into the RFQ.
 
 A 316 stainless steel precision-valve reference collection includes bodies, stems, seats, spool cores, gland bushings and threaded adapters. Its RFQ link preselects Stainless steel 316. Material and acceptance requirements remain drawing-specific.
+
+A dedicated Large sheet metal filter now presents amplifier chassis, rack enclosure shells, ventilated covers and mounting trays. The enquiry selects Sheet Metal Fabrication and leaves the material grade for drawing-based confirmation.
