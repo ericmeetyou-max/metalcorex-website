@@ -1,5 +1,13 @@
 [
   {
+    "image": "stainless-316-valve",
+    "title": "316 stainless steel valve components",
+    "category": "stainless",
+    "process": "CNC Machining",
+    "material": "Stainless steel 316",
+    "description": "Precision valve bodies, stems, seats, spool cores, gland bushings and threaded adapters. Material grade, sealing surfaces and inspection requirements are confirmed against your drawing."
+  },
+  {
     "image": "aluminum-five-axis",
     "title": "Complex 5-axis aluminum parts",
     "category": "aluminum",

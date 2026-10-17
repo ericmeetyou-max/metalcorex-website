@@ -1,5 +1,13 @@
 [
   {
+    "name": "stainless-316-valve",
+    "material": "stainless",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. A premium B2B precision manufacturing catalog photograph, landscape 1536x1024. Curated group of SIX distinct precision valve component reference geometries represented in natural silver 316 stainless steel: compact machined valve body with clearly defined intersecting threaded ports; slender polished stepped valve stem with a threaded end; precision annular valve seat with a clean conical sealing surface; cylindrical spool valve core with distinct grooves and lands; a small flanged gland bushing; a threaded tube connection adapter. All separate parts fully visible and separated, arranged neatly on bright seamless white/light gray studio surface, three-quarter view. Realistic precisely machined stainless steel, fine satin turning marks contrasted with polished functional sealing surfaces, crisp plausible threads, accurate circular bores, varied sizes. Professional engineering catalog aesthetic, soft high-key diffused light, subtle grounding shadows, natural silver only. No complete assembled valve, no handles, no black parts, no brass, no text, logos, numbers or watermarks. Illustrative material and component examples, not actual certified or pressure-rated products.",
+    "original": "originals/stainless-316-valve.png",
+    "web": "web/stainless-316-valve.webp"
+  },
+  {
     "name": "aluminum-five-axis",
     "material": "aluminum",
     "tool": "built-in image_gen",
