@@ -54,3 +54,9 @@ Validated at 1440px, 900px and 390px, including category counts, image viewer na
 ## Expanded service scope
 
 The owner confirmed coverage of Xometry service categories except waterjet cutting. The service directory now contains 42 entries across seven families, with grouped navigation and process-specific RFQ links. Detailed limits and acceptance criteria remain project-specific. See SERVICE-SCOPE.json.
+
+## Illustrated capability guides
+
+All 42 confirmed service entries now have independent English guides with original overview copy, four process steps, three design considerations, typical applications, material context and process-specific RFQ links. The directory uses illustrated cards and navigation links directly to each guide. Fourteen new AI-generated reference images supplement the existing process imagery; captions identify illustrations. Each guide has an accessible SVG workflow. See CAPABILITY-GUIDES.json and CAPABILITY-IMAGES.json for content and image provenance.
+
+Validation: 56 modern pages pass the internal-link, image, heading and structured-data checks. All 42 guide routes, workflow SVGs and RFQ process mappings pass static verification. Desktop and mobile layouts and a representative RFQ preselection were checked in the browser. The Worker backend is unchanged.
