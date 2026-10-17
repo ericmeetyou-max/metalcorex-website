@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "937445a0-4e22-43b2-b8ce-4142b0547543",
+  "version": "e4c29184-02ec-437d-a62f-814a7b720d3b",
   "date": "2026-10-17",
   "pages": 17,
   "workflow_steps": 42,
@@ -15,12 +15,13 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "3ef9c439-2eee-4243-9a7b-c5d8336d9699",
+  "previous_version": "937445a0-4e22-43b2-b8ce-4142b0547543",
   "live_verification": [
     "Homepage references all seven process-v3 image families",
     "Homepage contains twelve component cards",
     "/components renders twenty-four references",
-    "Live CNC filter returns four components and image viewer works"
+    "Live CNC filter returns four components and image viewer works",
+    "Expanded service directory: 42 entries; waterjet absent"
   ],
   "new_process_images": 7,
   "homepage_components": 12,
@@ -28,5 +29,11 @@
   "logo_update": {
     "source": "Owner-supplied accent1.svg and blob-once.svg",
     "validation": "Desktop and mobile wordmarks verified; live header/footer SVGs load and favicon link updated; original path geometry preserved"
+  },
+  "service_directory": {
+    "groups": 7,
+    "entries": 42,
+    "waterjet": false,
+    "rfq_preselection": "Laser Tube Cutting verified on mobile"
   }
 }

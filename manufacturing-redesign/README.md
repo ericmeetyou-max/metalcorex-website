@@ -50,3 +50,7 @@ Seven new 1536×1024 illustrative process images replace the prior capability im
 The homepage now contains 12 component references from the existing product asset library. `/components` offers all 24 references with category filters, an accessible native-dialog image viewer, previous/next and keyboard controls, and RFQ links that preselect the component name and process. The product images are references for custom manufacturing, not stocked items or claims of completed customer projects.
 
 Validated at 1440px, 900px and 390px, including category counts, image viewer navigation, Escape/focus return and RFQ parameter handoff. All 17 redesigned pages pass static validation; the three isolated RFQ regression tests pass.
+
+## Expanded service scope
+
+The owner confirmed coverage of Xometry service categories except waterjet cutting. The service directory now contains 42 entries across seven families, with grouped navigation and process-specific RFQ links. Detailed limits and acceptance criteria remain project-specific. See SERVICE-SCOPE.json.
