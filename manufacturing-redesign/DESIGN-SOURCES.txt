@@ -29,3 +29,6 @@ Revision 3 — 2026-10-17:
 Seven new process illustrations in website/assets/process-v3, generated using built-in image_gen. Exact prompts and asset paths: PROCESS-IMAGES.json. Original generated PNGs are preserved in the user deliverable outputs/metalcorex-image-upgrade/originals. WebP variants use quality 90 at original size and quality 88 at 768×512. Only delivery-format conversion and proportional resampling were applied.
 
 The 24 component references come from the pre-existing website/assets/product-catalog-v2 collection. Their image content was not modified. Reference titles, manufacturing categories and quote links were added for browsing; no customer-project, performance or certification claims were added.
+
+Official identity update — 2026-10-17:
+Owner-supplied accent1.svg and blob-once.svg provide the exact same Metalcorex outline geometry. The dark and white wordmark assets preserve those paths with a tighter viewBox for practical header/footer spacing. The favicon uses the supplied X outline on the supplied navy brand color. Original files are retained in website/assets/brand. No AI generation was used for the logo.

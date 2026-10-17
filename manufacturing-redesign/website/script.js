@@ -88,7 +88,7 @@ if (
     <div class="supplier-footer-main">
       <div class="supplier-footer-company">
         <a class="supplier-footer-brand" href="/" aria-label="Metalcorex home">
-          <img src="/assets/responsive/metalcorex-logo-240.webp" alt="Metalcorex" width="240" height="46">
+          <img src="/assets/brand/metalcorex-light.svg" alt="Metalcorex" width="240" height="46">
         </a>
         <p>Drawing-based custom manufacturing for metal and plastic parts, from prototypes to production, finishing and assembly.</p>
         <address>
