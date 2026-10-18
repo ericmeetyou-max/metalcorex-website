@@ -92,3 +92,7 @@ Three fieldsets separate contact, part/production and drawings/requirements. Req
 ## Unified homepage
 
 Homepage uses a navy hero with three bright material-component images, eight manufacturing capability cards, the existing process explorer and 17-collection gallery, updated material/finish library links, owner-confirmed ISO 9001:2015 management copy, company workshop feature and a clearer project brief CTA. Existing filters, dialogs and quote links retained. Desktop/mobile layout and process/category interactions verified.
+
+## Services directory refresh
+
+Services page shares the navy homepage hero and image-card treatment. Seven family-specific SVG icons appear in category navigation, family headings and all 42 service cards. Family descriptions and scope tags, live keyword search with empty/clear states, process-selection guidance and material/quality/component cross-links improve discovery. Category navigation clears search to reveal target anchors. All service/quote links and waterjet exclusion retained. Desktop/mobile, search, category jump and Laser Tube Cutting RFQ preselection verified.

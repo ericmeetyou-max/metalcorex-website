@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "0ad2f54c-9fa8-4c78-bfcd-cddfe826a75c",
+  "version": "8fab5160-226a-45cf-b623-8e1b4ad03833",
   "date": "2026-10-18",
   "pages": 56,
   "workflow_steps": 192,
@@ -15,7 +15,7 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "a77602d1-88fd-401c-8fb7-0c473c8bee66",
+  "previous_version": "0ad2f54c-9fa8-4c78-bfcd-cddfe826a75c",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
@@ -138,6 +138,20 @@
       "Aluminum filter returns three collections",
       "Live headline and eight capability cards verified",
       "All three live hero images loaded"
+    ]
+  },
+  "services_refresh": {
+    "services": 42,
+    "families": 7,
+    "svg_icon_placements": 60,
+    "checks": [
+      "56-page static validation passed",
+      "1440px desktop and 390px mobile layout checked; no overflow",
+      "Search laser returns 4 services; turning returns 2",
+      "Empty state and clear search verified",
+      "Category jump resets search and reveals target group",
+      "Laser Tube Cutting RFQ preselection verified",
+      "Live directory counts and all hero images verified"
     ]
   }
 }
