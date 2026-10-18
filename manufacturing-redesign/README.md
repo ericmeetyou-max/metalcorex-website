@@ -76,3 +76,7 @@ Audio component references include a grouped speaker-grille/perforated-panel col
 ## Expanded material and finish library
 
 The materials page contains 23 material families and 35 finish/treatment options, searchable independently by keyword and category. Cards include representative grades, process routes, application notes and RFQ links. Six selection examples, a specification checklist and five FAQs support quoting. Content is stored in MATERIALS-LIBRARY.json. Reference taxonomy: Xometry material categories and finishing directory; Metalcorex copy is original. Material substitution, grade/process compatibility and documentation remain drawing-specific.
+
+## Quality page expansion
+
+Quality page includes six management principles, six inspection checkpoints, four inspection areas, six document categories, four corrective-action stages, six process-specific focus areas and five FAQs. Inspection coverage and equipment methods are scoped to the project. ISO edition and certification status are awaiting owner clarification; no ISO certification claim has been added. Local desktop/mobile layout and RFQ message handoff checked.
