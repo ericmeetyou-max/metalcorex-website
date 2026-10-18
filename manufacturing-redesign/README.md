@@ -80,3 +80,7 @@ The materials page contains 23 material families and 35 finish/treatment options
 ## Quality page expansion
 
 Quality page includes six management principles, six inspection checkpoints, four inspection areas, six document categories, four corrective-action stages, six process-specific focus areas and five FAQs. Inspection coverage and equipment methods are scoped to the project. Owner confirmed management in accordance with ISO 9001:2015, without a certification claim. The page states the management framework and does not display certification badges. Local desktop/mobile layout and RFQ message handoff checked.
+
+## About page
+
+Expanded company page with 15 image placements: component hero, existing workshop photograph, eight process cards, engineering review, three component application groups and inspection illustration. Includes company scope, five project stages, four collaboration principles, owner-confirmed ISO 9001:2015 management wording and project RFQ handoff. No invented operating history, workforce, factory area or certification claims. Desktop/mobile layouts and RFQ handoff checked.
