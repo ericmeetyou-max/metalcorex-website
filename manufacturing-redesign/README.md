@@ -72,3 +72,7 @@ A 316 stainless steel precision-valve reference collection includes bodies, stem
 A dedicated Sheet metal & enclosures filter now presents amplifier chassis, rack enclosure shells, ventilated covers and mounting trays. The enquiry selects Sheet Metal Fabrication and leaves the material grade for drawing-based confirmation.
 
 Audio component references include a grouped speaker-grille/perforated-panel collection and a plastic acoustic waveguide/horn collection. They appear first within their respective sheet-metal and plastic categories, with fabrication or injection-molding RFQ links. Acoustic geometry is presented as a design reference, not a verified performance claim.
+
+## Expanded material and finish library
+
+The materials page contains 23 material families and 35 finish/treatment options, searchable independently by keyword and category. Cards include representative grades, process routes, application notes and RFQ links. Six selection examples, a specification checklist and five FAQs support quoting. Content is stored in MATERIALS-LIBRARY.json. Reference taxonomy: Xometry material categories and finishing directory; Metalcorex copy is original. Material substitution, grade/process compatibility and documentation remain drawing-specific.

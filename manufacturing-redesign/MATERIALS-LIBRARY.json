@@ -1,0 +1,498 @@
+{
+  "materials": [
+    {
+      "name": "Aluminum alloys",
+      "group": "Metals",
+      "grades": "2024 \u00b7 5052 \u00b7 6061 \u00b7 6063 \u00b7 7050 \u00b7 7075 \u00b7 MIC-6 tooling plate",
+      "process": "CNC machining \u00b7 sheet fabrication \u00b7 extrusion",
+      "use": "Lightweight housings, precision fixtures, heat sinks and structural brackets.",
+      "note": "Specify alloy, temper and stock form. High-strength grades and formable sheet grades serve different purposes.",
+      "img": "aluminum-6061-t6"
+    },
+    {
+      "name": "Stainless steel",
+      "group": "Metals",
+      "grades": "303 \u00b7 304 / 304L \u00b7 316 / 316L \u00b7 410 \u00b7 416 \u00b7 420 \u00b7 440C \u00b7 15-5 PH \u00b7 17-4 PH \u00b7 Nitronic 60",
+      "process": "CNC machining \u00b7 sheet fabrication",
+      "use": "Valve parts, fluid interfaces, fasteners and corrosion-resistant enclosures.",
+      "note": "Match the grade and heat-treated condition to corrosion, hardness and machining requirements.",
+      "img": "stainless-316"
+    },
+    {
+      "name": "Carbon & alloy steel",
+      "group": "Metals",
+      "grades": "1018 \u00b7 1045 \u00b7 1215 \u00b7 A36 \u00b7 4130 \u00b7 4140 / 4140PH \u00b7 4340",
+      "process": "CNC machining \u00b7 fabrication \u00b7 weldments",
+      "use": "Shafts, couplings, machine frames, mounting plates and load-bearing hardware.",
+      "note": "Specify hardness, heat treatment and protective finish; bare carbon steel needs corrosion protection in many environments.",
+      "img": "steel-40cr-4140"
+    },
+    {
+      "name": "Sheet & coated steel",
+      "group": "Metals",
+      "grades": "Cold-rolled \u00b7 hot-rolled \u00b7 galvanized \u00b7 electrogalvanized \u00b7 SPCC \u00b7 SECC \u00b7 SGCC \u00b7 S235 \u00b7 S355",
+      "process": "Sheet Metal Fabrication",
+      "use": "Amplifier chassis, equipment cabinets, ventilation panels and mounting brackets.",
+      "note": "Give thickness in mm or inches, bend requirements and coating condition. Regional grades require drawing review.",
+      "img": "steel-secc-sgcc"
+    },
+    {
+      "name": "Tool steel",
+      "group": "Metals",
+      "grades": "A2 \u00b7 D2 \u00b7 O1 \u00b7 S7 \u00b7 H13",
+      "process": "CNC machining \u00b7 grinding \u00b7 tooling",
+      "use": "Wear inserts, punches, dies and production tooling.",
+      "note": "Define final hardness and grinding allowance. Heat treatment can change dimensions.",
+      "img": "steel-c45-1045"
+    },
+    {
+      "name": "Brass",
+      "group": "Metals",
+      "grades": "C260 \u00b7 C360 \u00b7 lead-free grades by specification",
+      "process": "CNC machining \u00b7 sheet fabrication",
+      "use": "Turned fittings, threaded inserts, decorative hardware and electrical terminals.",
+      "note": "Identify lead restrictions, plating requirements and the exact alloy for fluid-contact applications.",
+      "img": "metal-brass-copper"
+    },
+    {
+      "name": "Copper & bronze",
+      "group": "Metals",
+      "grades": "C101 \u00b7 C110 \u00b7 C932 bearing bronze",
+      "process": "CNC machining \u00b7 sheet fabrication",
+      "use": "Busbars, heat-transfer parts, bushings and bearing components.",
+      "note": "Choose copper for conductivity or bronze for bearing applications; they are not direct substitutes.",
+      "img": "metal-brass-copper"
+    },
+    {
+      "name": "Titanium",
+      "group": "Metals",
+      "grades": "Grade 2 \u00b7 Grade 5 / Ti-6Al-4V",
+      "process": "CNC machining",
+      "use": "Lightweight structural parts and corrosion-resistant precision components.",
+      "note": "Specify material condition, cosmetic faces and any required material documentation.",
+      "img": "metal-titanium"
+    },
+    {
+      "name": "Casting alloys",
+      "group": "Metals",
+      "grades": "Aluminum A380 \u00b7 ADC12 \u00b7 zinc Zamak 3 / 5 \u00b7 magnesium AZ91D",
+      "process": "Die Casting",
+      "use": "Complex housings, covers and repeat-production cast components.",
+      "note": "Alloy selection, draft, wall sections and secondary machining are reviewed together.",
+      "img": "aluminum-adc12-a380"
+    },
+    {
+      "name": "ABS, PC & blends",
+      "group": "Plastics",
+      "grades": "ABS \u00b7 PC \u00b7 PC/ABS \u00b7 ASA",
+      "process": "Machining \u00b7 injection molding \u00b7 extrusion",
+      "use": "Enclosures, acoustic waveguides, covers and impact-resistant interfaces.",
+      "note": "Specify resin grade, color and any UV or flame-rating requirements.",
+      "img": "plastic-abs-pcabs"
+    },
+    {
+      "name": "Acetal / POM",
+      "group": "Plastics",
+      "grades": "POM-C \u00b7 POM-H \u00b7 Delrin grades",
+      "process": "Machining \u00b7 injection molding",
+      "use": "Gears, rollers, bushings and precision sliding components.",
+      "note": "Review load, wear, dimensional tolerances and the selected resin grade.",
+      "img": "plastic-pom-acetal"
+    },
+    {
+      "name": "Nylon / polyamide",
+      "group": "Plastics",
+      "grades": "PA6 \u00b7 PA66 \u00b7 PA12 \u00b7 glass-filled grades",
+      "process": "Machining \u00b7 injection molding",
+      "use": "Wear pads, mechanical brackets, gears and durable housings.",
+      "note": "Moisture conditioning and reinforcement affect dimensions and performance.",
+      "img": "plastic-pa6-pa66-gf"
+    },
+    {
+      "name": "Polyolefins",
+      "group": "Plastics",
+      "grades": "PP \u00b7 HDPE \u00b7 LDPE \u00b7 UHMW-PE",
+      "process": "Machining \u00b7 molding \u00b7 extrusion",
+      "use": "Chemical-handling parts, guides, liners and flexible containers.",
+      "note": "Review creep, stiffness and bonding requirements before final selection.",
+      "img": "plastic-pom-acetal"
+    },
+    {
+      "name": "Clear plastics",
+      "group": "Plastics",
+      "grades": "PMMA / acrylic \u00b7 PC \u00b7 PETG",
+      "process": "Machining \u00b7 molding \u00b7 extrusion",
+      "use": "Windows, display covers, light guides and transparent guards.",
+      "note": "Define optical areas, scratch protection and clarity expectations separately from mechanical tolerances.",
+      "img": "plastic-polycarbonate"
+    },
+    {
+      "name": "High-performance polymers",
+      "group": "Plastics",
+      "grades": "PEEK \u00b7 PEI / ULTEM \u00b7 PPS \u00b7 PSU \u00b7 PPSU \u00b7 PBT \u00b7 PET",
+      "process": "Machining \u00b7 injection molding",
+      "use": "Insulators, demanding mechanical interfaces and temperature-exposed components.",
+      "note": "Use grade-specific data for temperature, chemicals, reinforcement and regulatory requirements.",
+      "img": "plastic-pa6-pa66-gf"
+    },
+    {
+      "name": "Fluoropolymers & PVC",
+      "group": "Plastics",
+      "grades": "PTFE \u00b7 PVDF \u00b7 PVC",
+      "process": "Machining \u00b7 extrusion \u00b7 molding where suitable",
+      "use": "Seals, insulating parts and chemical-handling components.",
+      "note": "Material behavior and processing routes differ. Specify the operating medium and temperature.",
+      "img": "plastic-pom-acetal"
+    },
+    {
+      "name": "Silicone & rubber",
+      "group": "Elastomers",
+      "grades": "Silicone \u00b7 EPDM \u00b7 NBR \u00b7 FKM \u00b7 neoprene",
+      "process": "Compression molding \u00b7 silicone casting",
+      "use": "Gaskets, seals, boots and vibration-isolation components.",
+      "note": "Specify Shore hardness, compression, fluid exposure and any required test standard.",
+      "img": "elastomer-silicone-epdm"
+    },
+    {
+      "name": "TPE, TPU & cast urethane",
+      "group": "Elastomers",
+      "grades": "TPE \u00b7 TPU \u00b7 rigid and flexible polyurethane",
+      "process": "Injection molding \u00b7 overmolding \u00b7 urethane casting",
+      "use": "Soft-touch grips, protective covers, flexible interfaces and short-run parts.",
+      "note": "State hardness, color and the substrate for any overmolded bond.",
+      "img": "elastomer-tpe-tpu"
+    },
+    {
+      "name": "Composites & laminates",
+      "group": "Composites",
+      "grades": "G-10 \u00b7 FR-4 \u00b7 phenolic \u00b7 carbon-fiber laminates",
+      "process": "CNC routing \u00b7 machining",
+      "use": "Insulating plates, stiff panels, fixtures and lightweight brackets.",
+      "note": "Specify laminate construction, fiber direction and edge-quality requirements.",
+      "img": "plastic-pa6-pa66-gf"
+    },
+    {
+      "name": "Powder-bed polymers",
+      "group": "3D printing",
+      "grades": "PA11 \u00b7 PA12 \u00b7 glass / carbon / mineral-filled nylon \u00b7 PP \u00b7 TPU \u00b7 PK",
+      "process": "SLS \u00b7 MJF",
+      "use": "Complex ducts, brackets, lattice components and functional prototypes.",
+      "note": "The available grade depends on the print platform. Define stiffness, flexibility and cosmetic needs.",
+      "img": "plastic-pa6-pa66-gf"
+    },
+    {
+      "name": "FDM thermoplastics",
+      "group": "3D printing",
+      "grades": "ABS \u00b7 ASA \u00b7 PLA \u00b7 PETG \u00b7 PC \u00b7 PC/ABS \u00b7 nylon \u00b7 reinforced nylon \u00b7 PEI",
+      "process": "Fused Deposition Modeling (FDM)",
+      "use": "Jigs, fixtures, large prototypes and low-volume functional parts.",
+      "note": "Build direction, layer height and fill strategy are part of the specification.",
+      "img": "plastic-abs-pcabs"
+    },
+    {
+      "name": "Photopolymer resins",
+      "group": "3D printing",
+      "grades": "General-purpose \u00b7 tough \u00b7 clear \u00b7 high-temperature \u00b7 rigid \u00b7 flexible \u00b7 rubber-like",
+      "process": "SLA \u00b7 PolyJet \u00b7 DLS",
+      "use": "Detail models, fit checks, visual prototypes and resin-specific functional parts.",
+      "note": "Choose the actual resin by datasheet. An ABS-like resin is not the same material as molded ABS.",
+      "img": "plastic-polycarbonate"
+    },
+    {
+      "name": "Metal printing powders",
+      "group": "3D printing",
+      "grades": "AlSi10Mg \u00b7 316L \u00b7 17-4 PH \u00b7 Ti-6Al-4V \u00b7 nickel-alloy grades",
+      "process": "DMLS \u00b7 metal binder jetting",
+      "use": "Complex metal geometries, internal channels and consolidated assemblies.",
+      "note": "Alloy availability depends on process. Specify stress relief, machining and inspection needs.",
+      "img": "metal-titanium"
+    }
+  ],
+  "finishes": [
+    {
+      "name": "As-machined & deburred",
+      "group": "Metal finishes",
+      "substrate": "Machined metals and plastics",
+      "benefit": "Retains visible tool paths with burr removal.",
+      "spec": "Identify edge breaks, sharp edges to retain and required surface roughness.",
+      "img": "brushing"
+    },
+    {
+      "name": "Bead blasting",
+      "group": "Metal finishes",
+      "substrate": "Compatible metals",
+      "benefit": "An even matte appearance on visible surfaces.",
+      "spec": "Specify media, cosmetic faces and areas to mask.",
+      "img": "bead-blasting"
+    },
+    {
+      "name": "Brushing & mechanical polishing",
+      "group": "Metal finishes",
+      "substrate": "Stainless steel, aluminum, brass and other suitable metals",
+      "benefit": "Directional grain or a polished decorative surface.",
+      "spec": "State grain direction, polish level and an approved reference sample.",
+      "img": "polishing"
+    },
+    {
+      "name": "Tumbling / vibratory finishing",
+      "group": "Metal finishes",
+      "substrate": "Suitable metal components",
+      "benefit": "Batch edge smoothing and surface blending.",
+      "spec": "Review delicate features, edge radii and dimensional allowances.",
+      "img": ""
+    },
+    {
+      "name": "Type II anodizing",
+      "group": "Metal finishes",
+      "substrate": "Aluminum",
+      "benefit": "Clear or colored oxide finish for decorative and protective use.",
+      "spec": "Specify color, thickness, sealing and masking; approve a color sample.",
+      "img": "anodizing"
+    },
+    {
+      "name": "Type III hard anodizing",
+      "group": "Metal finishes",
+      "substrate": "Aluminum",
+      "benefit": "A thicker anodic layer for wear-focused applications.",
+      "spec": "Define coating allowance, final fits and required specification.",
+      "img": "anodizing"
+    },
+    {
+      "name": "Chemical conversion / chem film",
+      "group": "Metal finishes",
+      "substrate": "Aluminum",
+      "benefit": "A conversion layer for corrosion protection or paint preparation.",
+      "spec": "Specify chemistry, class, electrical-contact areas and drawing standard.",
+      "img": ""
+    },
+    {
+      "name": "Passivation",
+      "group": "Metal finishes",
+      "substrate": "Stainless steel",
+      "benefit": "Removes surface contamination and free iron after manufacturing.",
+      "spec": "State the required process specification and any verification tests.",
+      "img": ""
+    },
+    {
+      "name": "Electropolishing",
+      "group": "Metal finishes",
+      "substrate": "Compatible stainless steel and alloys",
+      "benefit": "Electrochemical smoothing and brightening.",
+      "spec": "Account for material removal and define internal or critical surfaces.",
+      "img": "polishing"
+    },
+    {
+      "name": "Black oxide",
+      "group": "Metal finishes",
+      "substrate": "Compatible ferrous alloys",
+      "benefit": "A dark conversion finish with minimal dimensional buildup.",
+      "spec": "Define alloy, sealing or oil treatment and corrosion expectations.",
+      "img": ""
+    },
+    {
+      "name": "Electroless nickel",
+      "group": "Metal finishes",
+      "substrate": "Compatible metal substrates",
+      "benefit": "A deposited nickel layer for wear and corrosion requirements.",
+      "spec": "Specify phosphorus content, thickness, masking and post-treatment.",
+      "img": "painting-plating"
+    },
+    {
+      "name": "Zinc plating",
+      "group": "Metal finishes",
+      "substrate": "Steel and compatible substrates",
+      "benefit": "Sacrificial corrosion protection for hardware.",
+      "spec": "Specify thickness, passivate color and any embrittlement-relief requirements.",
+      "img": ""
+    },
+    {
+      "name": "Gold & silver plating",
+      "group": "Metal finishes",
+      "substrate": "Compatible conductive substrates",
+      "benefit": "Contact surfaces and decorative metallic finishes.",
+      "spec": "Define base layers, plated areas, thickness and electrical requirements.",
+      "img": ""
+    },
+    {
+      "name": "Copper & tin plating",
+      "group": "Metal finishes",
+      "substrate": "Compatible metal substrates",
+      "benefit": "Conductive layers, solderable surfaces or plating underlayers.",
+      "spec": "Specify the complete coating stack and local masking requirements.",
+      "img": ""
+    },
+    {
+      "name": "Hard chrome & specialty plating",
+      "group": "Metal finishes",
+      "substrate": "Compatible metal substrates",
+      "benefit": "Wear-oriented or drawing-specific plated surfaces.",
+      "spec": "Provide the exact coating specification; specialty chemistries are reviewed per project.",
+      "img": ""
+    },
+    {
+      "name": "Powder coating",
+      "group": "Metal finishes",
+      "substrate": "Suitable metal parts",
+      "benefit": "Durable color and texture for housings, frames and panels.",
+      "spec": "Give RAL reference, gloss, texture, thickness and masked faces.",
+      "img": "powder-coating"
+    },
+    {
+      "name": "Wet painting",
+      "group": "Metal finishes",
+      "substrate": "Prepared metals and suitable plastics",
+      "benefit": "Color-controlled cosmetic and protective paint systems.",
+      "spec": "Specify primer, topcoat, color, gloss and adhesion requirements.",
+      "img": "painting-plating"
+    },
+    {
+      "name": "Ceramic-polymer coating / Cerakote",
+      "group": "Metal finishes",
+      "substrate": "Compatible metals and selected polymers",
+      "benefit": "Thin decorative and protective coating systems.",
+      "spec": "Specify product series, color, cure compatibility and coating thickness.",
+      "img": ""
+    },
+    {
+      "name": "Phosphate & dry-film lubricants",
+      "group": "Metal finishes",
+      "substrate": "Compatible metals",
+      "benefit": "Surface preparation or reduced-friction treatment.",
+      "spec": "Provide chemistry, lubricant system, coating thickness and application zones.",
+      "img": ""
+    },
+    {
+      "name": "Heat treatment",
+      "group": "Metal finishes",
+      "substrate": "Suitable steels and aluminum alloys",
+      "benefit": "Adjusts bulk material properties rather than simply surface appearance.",
+      "spec": "Specify condition, hardness, stress relief and post-treatment inspection.",
+      "img": ""
+    },
+    {
+      "name": "Precision cleaning & masking",
+      "group": "Metal finishes",
+      "substrate": "Material-dependent",
+      "benefit": "Controlled cleaning and protection of functional areas during finishing.",
+      "spec": "State cleanliness criteria, packaging and excluded surfaces; oxygen-service requirements need a defined procedure.",
+      "img": ""
+    },
+    {
+      "name": "Sanding & support removal",
+      "group": "Printed & cast parts",
+      "substrate": "FDM, SLA, DLS and other supported prints",
+      "benefit": "Removes supports and blends selected contact areas.",
+      "spec": "Identify cosmetic faces and acceptable remaining layer lines.",
+      "img": ""
+    },
+    {
+      "name": "Depowdering & media blasting",
+      "group": "Printed & cast parts",
+      "substrate": "SLS, MJF and metal prints",
+      "benefit": "Removes loose powder and evens the printed surface.",
+      "spec": "Review internal-channel access and delicate features.",
+      "img": "bead-blasting"
+    },
+    {
+      "name": "Vapor smoothing",
+      "group": "Printed & cast parts",
+      "substrate": "Compatible SLS / MJF polymers",
+      "benefit": "Reduces surface texture on selected printed polymers.",
+      "spec": "Confirm resin compatibility, critical dimensions and the desired appearance.",
+      "img": ""
+    },
+    {
+      "name": "Color dyeing",
+      "group": "Printed & cast parts",
+      "substrate": "Compatible powder-bed polymers",
+      "benefit": "Adds color to porous printed polymer surfaces.",
+      "spec": "Specify color reference and acceptable batch variation.",
+      "img": ""
+    },
+    {
+      "name": "Clear coat & gloss finishing",
+      "group": "Printed & cast parts",
+      "substrate": "Suitable resin prints",
+      "benefit": "Improves cosmetic gloss or apparent clarity.",
+      "spec": "Define clear areas and viewing requirements; this is not an optical-grade guarantee.",
+      "img": ""
+    },
+    {
+      "name": "Painting & plating for plastics",
+      "group": "Printed & cast parts",
+      "substrate": "Suitable printed, cast or molded polymers",
+      "benefit": "Decorative color or a metal-coated appearance.",
+      "spec": "Review adhesion, resin compatibility and coating stack.",
+      "img": "painting-plating"
+    },
+    {
+      "name": "Secondary machining & thermal processing",
+      "group": "Printed & cast parts",
+      "substrate": "Compatible metal and polymer prints",
+      "benefit": "Finishes critical features after the primary build.",
+      "spec": "Identify machined datums, threaded features and thermal treatment requirements.",
+      "img": ""
+    },
+    {
+      "name": "SPI A: polished",
+      "group": "Mold textures",
+      "substrate": "Injection mold cavity surfaces",
+      "benefit": "A-1, A-2 and A-3 polished tooling for glossy molded surfaces.",
+      "spec": "Select the SPI grade, resin and cosmetic faces; validate the molded result.",
+      "img": "polishing"
+    },
+    {
+      "name": "SPI B: semi-gloss",
+      "group": "Mold textures",
+      "substrate": "Injection mold cavity surfaces",
+      "benefit": "B-1, B-2 and B-3 finishes for a softer sheen.",
+      "spec": "Specify the grade and review draft and part geometry.",
+      "img": ""
+    },
+    {
+      "name": "SPI C: matte",
+      "group": "Mold textures",
+      "substrate": "Injection mold cavity surfaces",
+      "benefit": "C-1, C-2 and C-3 stone-finished tooling for lower-gloss parts.",
+      "spec": "Define cosmetic zones and the acceptable texture reference.",
+      "img": ""
+    },
+    {
+      "name": "SPI D: textured",
+      "group": "Mold textures",
+      "substrate": "Injection mold cavity surfaces",
+      "benefit": "D-1, D-2 and D-3 blasted tooling for textured surfaces.",
+      "spec": "Review draft, resin flow and texture uniformity.",
+      "img": ""
+    },
+    {
+      "name": "VDI 3400 texture",
+      "group": "Mold textures",
+      "substrate": "Mold and tooling surfaces",
+      "benefit": "Numbered texture levels for fine-to-coarse matte appearances.",
+      "spec": "State the VDI number and approve a physical texture sample.",
+      "img": ""
+    },
+    {
+      "name": "Mold-Tech & custom texture",
+      "group": "Mold textures",
+      "substrate": "Mold and tooling surfaces",
+      "benefit": "Specified grain patterns and custom decorative textures.",
+      "spec": "Provide the exact texture reference, draft requirements and approval sample.",
+      "img": ""
+    },
+    {
+      "name": "Cast-part color & texture",
+      "group": "Printed & cast parts",
+      "substrate": "Urethane and silicone cast parts",
+      "benefit": "Pigmented, smooth, matte or textured cast surfaces.",
+      "spec": "Specify master pattern finish, color, hardness and visible surfaces.",
+      "img": ""
+    }
+  ],
+  "references": [
+    "https://community.xometry.com/kb/articles/637-materials-by-category",
+    "https://www.xometry.com/finishes/"
+  ],
+  "note": "Original Metalcorex copy. Owner confirmed service scope. Grade and process combinations require quotation review."
+}

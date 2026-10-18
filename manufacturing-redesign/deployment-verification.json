@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "893d2ed0-9f06-460c-be24-6f1c7143323c",
+  "version": "548ec1a4-ed90-4ce8-bce9-094566c993ce",
   "date": "2026-10-18",
   "pages": 56,
   "workflow_steps": 192,
@@ -15,7 +15,7 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "2fc11eae-063b-4f70-b4bd-8d0fa5a4828f",
+  "previous_version": "893d2ed0-9f06-460c-be24-6f1c7143323c",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
@@ -70,5 +70,17 @@
     "filter_categories": 7,
     "first_collection": "Speaker grilles & perforated panels",
     "enclosure_collections": 2
+  },
+  "materials_library": {
+    "material_families": 23,
+    "finish_options": 35,
+    "checks": [
+      "56 pages static build passed",
+      "Local searches: 316 returns 2 material families; anodizing returns 2 finishes",
+      "Category filters: elastomers 2, mold textures 6",
+      "390px mobile layout has no horizontal overflow",
+      "SPI A finish RFQ message and Surface Finishing process prefilled",
+      "Live page reports 23 material families and 35 finishes"
+    ]
   }
 }
