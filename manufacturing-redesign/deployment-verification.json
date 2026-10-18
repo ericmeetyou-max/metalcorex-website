@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "cc288899-7005-4aee-b602-b5cfe588a23d",
+  "version": "e0c393c2-f615-4ab7-8cfd-214db17e5e97",
   "date": "2026-10-18",
   "pages": 56,
   "workflow_steps": 192,
@@ -15,7 +15,7 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "548ec1a4-ed90-4ce8-bce9-094566c993ce",
+  "previous_version": "cc288899-7005-4aee-b602-b5cfe588a23d",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
@@ -91,13 +91,14 @@
     "corrective_action_steps": 4,
     "process_focus_areas": 6,
     "faq": 5,
-    "iso_statement": "Pending owner confirmation of edition and certification status; no claim published",
+    "iso_statement": "Owner confirmed management in accordance with ISO 9001:2015; management statement published without certification claims or badges.",
     "checks": [
       "56-page static validation passed",
       "Desktop and mobile visual checks",
       "No horizontal overflow on mobile",
       "Quality RFQ message preselection verified",
-      "Live quality page heading and six documentation cards verified"
+      "Live quality page heading and six documentation cards verified",
+      "Live ISO 9001:2015 management heading verified"
     ]
   }
 }

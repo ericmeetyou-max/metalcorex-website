@@ -79,4 +79,4 @@ The materials page contains 23 material families and 35 finish/treatment options
 
 ## Quality page expansion
 
-Quality page includes six management principles, six inspection checkpoints, four inspection areas, six document categories, four corrective-action stages, six process-specific focus areas and five FAQs. Inspection coverage and equipment methods are scoped to the project. ISO edition and certification status are awaiting owner clarification; no ISO certification claim has been added. Local desktop/mobile layout and RFQ message handoff checked.
+Quality page includes six management principles, six inspection checkpoints, four inspection areas, six document categories, four corrective-action stages, six process-specific focus areas and five FAQs. Inspection coverage and equipment methods are scoped to the project. Owner confirmed management in accordance with ISO 9001:2015, without a certification claim. The page states the management framework and does not display certification badges. Local desktop/mobile layout and RFQ message handoff checked.
