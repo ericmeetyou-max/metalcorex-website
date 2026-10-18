@@ -84,3 +84,7 @@ Quality page includes six management principles, six inspection checkpoints, fou
 ## About page
 
 Expanded company page with 15 image placements: component hero, existing workshop photograph, eight process cards, engineering review, three component application groups and inspection illustration. Includes company scope, five project stages, four collaboration principles, owner-confirmed ISO 9001:2015 management wording and project RFQ handoff. No invented operating history, workforce, factory area or certification claims. Desktop/mobile layouts and RFQ handoff checked.
+
+## Professional contact and RFQ page
+
+Three fieldsets separate contact, part/production and drawings/requirements. Requested quantity is distinct from annual quantity. Optional finish, destination and delivery timing are appended to the existing message payload via the formdata event; backend remains unchanged. Native file picker supports clearing and pre-submit validation matching 8 files / 25 MB each / 50 MB total and allowed extensions. Mobile displays the single-column form before secondary contact content. Five isolated tests pass, including storage/SMTP stubs, payload handoff and attachment limits; no production test enquiry sent.

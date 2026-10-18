@@ -1,6 +1,6 @@
 {
   "site": "https://metalcorex.com",
-  "version": "2ee2d751-3049-4457-92bb-64e6a6096f4d",
+  "version": "a77602d1-88fd-401c-8fb7-0c473c8bee66",
   "date": "2026-10-18",
   "pages": 56,
   "workflow_steps": 192,
@@ -15,7 +15,7 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "e0c393c2-f615-4ab7-8cfd-214db17e5e97",
+  "previous_version": "2ee2d751-3049-4457-92bb-64e6a6096f4d",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
@@ -112,6 +112,19 @@
       "Mobile capability section visually checked",
       "Project-review message prefilled in RFQ",
       "Live headline, eight capabilities and 15 images verified"
+    ]
+  },
+  "contact_page": {
+    "sections": 3,
+    "tests": "5 passed, isolated from production",
+    "backend": "unchanged",
+    "checks": [
+      "New optional fields included in existing message payload",
+      "Attachment limits and extensions match backend",
+      "Desktop 1440px and mobile 390px layout checked",
+      "Mobile form appears before secondary contact content; no horizontal overflow",
+      "Part/process/material deep-link preselection retained",
+      "Live form sections, quantity field and upload guidance verified"
     ]
   }
 }
