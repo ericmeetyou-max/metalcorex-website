@@ -1,0 +1,86 @@
+[
+  {
+    "name": "turning",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Close-up of a precision CNC lathe turning a short stepped stainless steel shaft held securely in a three-jaw chuck, carbide insert touching outer diameter, realistic fine chips, no dramatic sparks. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/turning.webp"
+  },
+  {
+    "name": "laser",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Fiber laser cutting a clean geometric bracket outline from flat stainless steel sheet on a slat bed, small localized bright cutting point, professional enclosed manufacturing equipment, oblique close-up. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/laser.webp"
+  },
+  {
+    "name": "tube",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Studio product photograph of three precisely bent stainless steel tubes with smooth consistent-radius bends, next to a rectangular tube with clean laser-cut holes and coping, restrained composition on cool gray surface. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/tube.webp"
+  },
+  {
+    "name": "resin",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Studio product photograph of a translucent amber resin engineering enclosure with fine ribs and a small ivory precision model, crisp geometry and subtle additive layer detail, clean gray background. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/resin.webp"
+  },
+  {
+    "name": "powder",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Studio product photograph of charcoal-gray nylon additive-manufactured functional parts: a lattice bracket, complex duct, and small clip. Fine matte powder texture, clearly differentiated complex geometries, gray background. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/powder.webp"
+  },
+  {
+    "name": "stamping",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Close-up of a progressive stamping strip with repeated clean pierced and bent sheet metal electrical brackets emerging from precision steel tooling, no hands, realistic industrial geometry. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/stamping.webp"
+  },
+  {
+    "name": "grinding",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Close-up of an industrial surface grinder abrasive wheel contacting a rectangular steel block on a magnetic chuck, fine localized sparks, clearly visible flat ground surface, enclosed clean workshop. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/grinding.webp"
+  },
+  {
+    "name": "coating",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium manufacturing website process illustration, landscape 1536x1024. Close-up of an electrostatic powder coating nozzle spraying fine blue coating onto a hanging steel bracket in a controlled industrial booth, no person visible, professional manufacturing photography. Premium editorial industrial photography, accurate physically plausible manufacturing, soft neutral industrial light, navy and cool gray palette with subtle blue accents. Subject fills frame, sharp material detail, no text, no watermarks, no logos. This is an illustrative scene, not a real factory claim.",
+    "asset": "website/assets/capability-guides/coating.webp"
+  },
+  {
+    "name": "metal-additive",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of three metal additive manufacturing reference components: a complex stainless steel manifold with curved channels visible at ports, a small titanium-like lattice bracket, and a compact ribbed housing. Satin matte metal powder-bed texture, credible engineering geometry, on cool gray surface. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/metal-additive.webp"
+  },
+  {
+    "name": "plastic-profile",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of custom extruded plastic profiles cut to short lengths: ivory hollow rectangular channel, black flexible edge trim, gray rigid U channel. Clearly polymer materials, consistent cross-sections, clean ends, on cool gray surface. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/plastic-profile.webp"
+  },
+  {
+    "name": "swiss",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of six small precision turned metal parts: slender stepped stainless steel shafts, brass threaded contact pins, tiny bored bushings. Consistent realistic axisymmetric geometry, precision machined surfaces, on cool gray surface, macro detail. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/swiss.webp"
+  },
+  {
+    "name": "overmold",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of a custom dark gray rigid plastic handgrip with blue elastomer overmold pads, beside a black polymer block with two embedded brass threaded inserts. Clearly visible material interfaces, plausible engineering product geometries, no branded product, cool gray surface. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/overmold.webp"
+  },
+  {
+    "name": "urethane",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of an open two-part pale silicone mold with a small ivory cast polyurethane equipment cover next to it, clearly visible cavity and matching finished part, clean casting workspace, no hands. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/urethane.webp"
+  },
+  {
+    "name": "metal-finish",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Asset type: premium manufacturing website illustration, landscape 1536x1024. Studio photograph of four simple CNC machined aluminum blocks showing four finishes: natural satin machined, bead blasted matte, blue anodized, black anodized. Consistent engineering geometry and believable metallic surface textures, cool gray surface. Crisp professional product photography, realistic manufacturing geometry, elegant soft light, navy and gray palette. No text, no logo, no watermark. Reference illustrations, not actual customer projects.",
+    "asset": "website/assets/capability-guides/metal-finish.webp"
+  }
+]

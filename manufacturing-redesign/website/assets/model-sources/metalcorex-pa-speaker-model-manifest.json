@@ -1,0 +1,249 @@
+{
+  "file": "website/assets/models/metalcorex-pa-speaker-exploded.glb",
+  "generatedAt": "2026-07-13T08:16:13.338Z",
+  "license": "CC0-1.0; self-built by Metalcorex/Codex for Metalcorex website use",
+  "meshCount": 121,
+  "triangleCount": 142200,
+  "objects": [
+    {
+      "name": "Cabinet",
+      "category": "Wood enclosure",
+      "metalcorexManufacturable": false,
+      "explode": [
+        0,
+        0,
+        -1.8
+      ],
+      "description": "Trapezoid professional PA speaker cabinet with front baffle, rear cavity, and stage-ready rubber feet.",
+      "childCount": 24
+    },
+    {
+      "name": "Perforated_Steel_Grille",
+      "category": "Sheet metal",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0,
+        0,
+        1.95
+      ],
+      "description": "Powder-coated perforated steel grille, a Metalcorex sheet metal part.",
+      "childCount": 10
+    },
+    {
+      "name": "Acoustic_Foam",
+      "category": "Acoustic material",
+      "metalcorexManufacturable": false,
+      "explode": [
+        0,
+        0,
+        1.38
+      ],
+      "description": "Open-cell acoustic foam layer behind the grille.",
+      "childCount": 1
+    },
+    {
+      "name": "Woofer_15in_Driver",
+      "category": "Purchased driver assembly",
+      "metalcorexManufacturable": false,
+      "explode": [
+        0,
+        -0.82,
+        0.98
+      ],
+      "description": "15-inch low-frequency driver assembly reference.",
+      "childCount": 13
+    },
+    {
+      "name": "Woofer_Cast_Basket",
+      "category": "Die cast / CNC aluminum",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0.95,
+        -0.72,
+        1.15
+      ],
+      "description": "Die-cast or machined woofer basket and mounting ring.",
+      "childCount": 10
+    },
+    {
+      "name": "Magnet_Motor",
+      "category": "Purchased driver assembly",
+      "metalcorexManufacturable": false,
+      "explode": [
+        0,
+        -0.82,
+        -1.2
+      ],
+      "description": "Woofer magnet and motor structure reference.",
+      "childCount": 2
+    },
+    {
+      "name": "Injection_Molded_High_Frequency_Horn",
+      "category": "Injection molded plastic",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0,
+        1.48,
+        1.1
+      ],
+      "description": "Injection molded high-frequency horn and waveguide.",
+      "childCount": 4
+    },
+    {
+      "name": "Compression_Driver",
+      "category": "Purchased driver assembly",
+      "metalcorexManufacturable": false,
+      "explode": [
+        0.65,
+        1.45,
+        -0.95
+      ],
+      "description": "Compression driver reference behind the horn.",
+      "childCount": 2
+    },
+    {
+      "name": "Crossover_Network",
+      "category": "Electrical assembly",
+      "metalcorexManufacturable": false,
+      "explode": [
+        -1.25,
+        -1.6,
+        -0.9
+      ],
+      "description": "Crossover PCB reference with inductors and capacitors.",
+      "childCount": 4
+    },
+    {
+      "name": "Sheet_Metal_Input_Plate",
+      "category": "Sheet metal interface plate",
+      "metalcorexManufacturable": true,
+      "explode": [
+        1.48,
+        -1.52,
+        -0.72
+      ],
+      "description": "Stamped sheet metal input plate with connector cutouts.",
+      "childCount": 3
+    },
+    {
+      "name": "Injection_Molded_Handle",
+      "category": "Injection molded plastic",
+      "metalcorexManufacturable": true,
+      "explode": [
+        -1.22,
+        0,
+        0.68
+      ],
+      "description": "Recessed side carry handle, injection molded plastic.",
+      "childCount": 2
+    },
+    {
+      "name": "Top_Recessed_Handle",
+      "category": "Injection molded plastic",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0,
+        2,
+        0.72
+      ],
+      "description": "Top recessed handle commonly used on portable PA speaker cabinets.",
+      "childCount": 2
+    },
+    {
+      "name": "Injection_Molded_Corners",
+      "category": "Injection molded plastic",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0,
+        0,
+        0.82
+      ],
+      "description": "Protective cabinet corners, injection molded plastic.",
+      "childCount": 4
+    },
+    {
+      "name": "Injection_Molded_Pole_Cup",
+      "category": "Injection molded plastic",
+      "metalcorexManufacturable": true,
+      "explode": [
+        0,
+        -2.12,
+        -0.45
+      ],
+      "description": "Bottom pole mount cup for speaker stands.",
+      "childCount": 2
+    },
+    {
+      "name": "Steel_Locking_Latch",
+      "category": "Speaker hardware",
+      "metalcorexManufacturable": true,
+      "explode": [
+        1.72,
+        0.58,
+        0.62
+      ],
+      "description": "Flush locking latch hardware for touring speaker cabinets and rigging covers.",
+      "childCount": 4
+    },
+    {
+      "name": "Speaker_Yoke_Bracket",
+      "category": "Sheet metal bracket",
+      "metalcorexManufacturable": true,
+      "explode": [
+        -1.34,
+        1.06,
+        0.38
+      ],
+      "description": "Steel yoke or wall-mount bracket interface for installed professional speakers.",
+      "childCount": 3
+    },
+    {
+      "name": "Quick_Release_Pin",
+      "category": "Hardware kit",
+      "metalcorexManufacturable": true,
+      "explode": [
+        1.82,
+        0.94,
+        0.95
+      ],
+      "description": "Quick-release locking pin with pull ring for speaker bracket adjustment.",
+      "childCount": 3
+    },
+    {
+      "name": "Anti_Loss_Safety_Cable",
+      "category": "Wire rope tether",
+      "metalcorexManufacturable": true,
+      "explode": [
+        1.98,
+        0.72,
+        1.1
+      ],
+      "description": "Anti-loss stainless wire rope tether keeps pins and covers attached to the speaker cabinet.",
+      "childCount": 3
+    },
+    {
+      "name": "CNC_Adapter_Ring",
+      "category": "CNC aluminum",
+      "metalcorexManufacturable": true,
+      "explode": [
+        1.42,
+        0.88,
+        0.98
+      ],
+      "description": "CNC aluminum adapter ring for driver or horn mounting.",
+      "childCount": 3
+    },
+    {
+      "name": "Screws_And_Fasteners",
+      "category": "Hardware kit",
+      "metalcorexManufacturable": false,
+      "explode": [
+        1.8,
+        1.9,
+        1.05
+      ],
+      "description": "Fasteners and assembly hardware reference.",
+      "childCount": 10
+    }
+  ]
+}

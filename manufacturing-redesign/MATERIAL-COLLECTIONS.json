@@ -1,0 +1,138 @@
+[
+  {
+    "image": "speaker-grilles",
+    "title": "Speaker grilles & perforated panels",
+    "category": "enclosures",
+    "process": "Sheet Metal Fabrication",
+    "material": "Sheet metal - grade to be confirmed",
+    "description": "Curved loudspeaker grilles, circular guards, ventilation panels and folded mesh covers. Perforation pattern, open area, edge forming and finish are reviewed for the application."
+  },
+  {
+    "image": "plastic-waveguides",
+    "title": "Plastic acoustic waveguides & horns",
+    "category": "plastic",
+    "process": "Plastic Injection Molding",
+    "material": "Engineering plastic - grade to be confirmed",
+    "description": "Rectangular, elliptical and circular acoustic waveguides with adapter rings. Flare geometry, throat interface, wall thickness and mounting features follow your design."
+  },
+  {
+    "image": "large-amplifier-chassis",
+    "title": "Large amplifier chassis & enclosures",
+    "category": "enclosures",
+    "process": "Sheet Metal Fabrication",
+    "material": "Sheet metal - grade to be confirmed",
+    "description": "Large amplifier chassis, rack-mount enclosure shells, ventilated covers and folded mounting trays. Overall size, sheet thickness, material and finish are reviewed against your drawing."
+  },
+  {
+    "image": "stainless-316-valve",
+    "title": "316 stainless steel valve components",
+    "category": "stainless",
+    "process": "CNC Machining",
+    "material": "Stainless steel 316",
+    "description": "Precision valve bodies, stems, seats, spool cores, gland bushings and threaded adapters. Material grade, sealing surfaces and inspection requirements are confirmed against your drawing."
+  },
+  {
+    "image": "aluminum-five-axis",
+    "title": "Complex 5-axis aluminum parts",
+    "category": "aluminum",
+    "process": "CNC Milling",
+    "material": "Aluminum alloy",
+    "description": "Swept-blade impellers, sculpted thin-wall brackets, deep-cavity housings and multi-angle manifolds. Illustrative five-axis machining geometries."
+  },
+  {
+    "image": "aluminum-machined",
+    "title": "Aluminum alloy CNC parts",
+    "category": "aluminum",
+    "process": "CNC Machining",
+    "material": "Aluminum alloy",
+    "description": "Bright aluminum housings, flanges and brackets, with selected anodized color accents."
+  },
+  {
+    "image": "brass-turned",
+    "title": "Brass turned components",
+    "category": "brass",
+    "process": "CNC Turning",
+    "material": "Brass",
+    "description": "Golden brass bushings, threaded adapters, knobs and sleeves with precision turned features."
+  },
+  {
+    "image": "stainless-turned",
+    "title": "Stainless steel precision parts",
+    "category": "stainless",
+    "process": "CNC Turning",
+    "material": "Stainless steel",
+    "description": "Silver stainless steel shafts, couplings, spacers and nozzles with functional mating surfaces."
+  },
+  {
+    "image": "plastic-machined",
+    "title": "Machined engineering plastics",
+    "category": "plastic",
+    "process": "CNC Machining",
+    "material": "Engineering plastic",
+    "description": "Ivory, white and blue polymer components with bores, pockets, teeth and mounting features."
+  },
+  {
+    "image": "silicone-seals",
+    "title": "Silicone seals & interfaces",
+    "category": "silicone",
+    "process": "Urethane & Silicone Casting",
+    "material": "Silicone",
+    "description": "Flexible gaskets, rings, bellows and plugs in translucent and softly colored silicone."
+  },
+  {
+    "image": "steel-machined",
+    "title": "Machined steel components",
+    "category": "steel",
+    "process": "CNC Machining",
+    "material": "Steel",
+    "description": "Natural steel shafts, blocks, sprockets and couplings with machined functional geometry."
+  },
+  {
+    "image": "aluminum-profiles",
+    "title": "Aluminum profiles & heat sinks",
+    "category": "aluminum",
+    "process": "Aluminum Extrusion",
+    "material": "Aluminum alloy",
+    "description": "Silver and champagne profiles, cooling fins, rails and end plates with defined cross-sections."
+  },
+  {
+    "image": "brass-milled",
+    "title": "Milled brass blocks & fittings",
+    "category": "brass",
+    "process": "CNC Milling",
+    "material": "Brass",
+    "description": "Golden brass manifolds, pocketed blocks, brackets and flanges with drilled and milled details."
+  },
+  {
+    "image": "stainless-fabricated",
+    "title": "Fabricated stainless steel parts",
+    "category": "stainless",
+    "process": "Sheet Metal Fabrication",
+    "material": "Stainless steel",
+    "description": "Brushed silver brackets, panels, folded enclosures and tube forms for custom assemblies."
+  },
+  {
+    "image": "plastic-molded",
+    "title": "Molded plastic housings & clips",
+    "category": "plastic",
+    "process": "Plastic Injection Molding",
+    "material": "Engineering plastic",
+    "description": "Light-colored housings, covers, clips and frames showing ribs, bosses and molded geometry."
+  },
+  {
+    "image": "silicone-molded",
+    "title": "Molded silicone components",
+    "category": "silicone",
+    "process": "Compression Molding",
+    "material": "Silicone",
+    "description": "Protective boots, button membranes, pads, cups and sleeves with flexible silicone forms."
+  },
+  {
+    "image": "steel-fabricated",
+    "title": "Formed & welded steel parts",
+    "category": "steel",
+    "process": "Sheet Metal Fabrication",
+    "material": "Steel",
+    "description": "Bare steel clevises, slotted plates, frames and stamped brackets with fabrication details."
+  }
+]

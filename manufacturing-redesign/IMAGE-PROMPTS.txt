@@ -1,0 +1,9 @@
+Generated with built-in image_gen.
+
+hero
+Use case: product-mockup. Create a premium wide editorial industrial product photograph for a precision manufacturing B2B website hero, landscape 3:2. A curated grouping of six realistic unbranded components on a light cool-gray studio surface: a sophisticated silver CNC machined aluminum housing with precision pockets and drilled holes, a brushed stainless bent sheet metal bracket, a matte black injection molded plastic cover, a short aluminum extrusion heat sink, a small matte gray die-cast housing, and a white 3D printed lattice block. True mechanical plausibility, subtle toolpaths and chamfers, exquisite metal textures, organized balanced composition, three-quarter view, diffused light, soft realistic shadows, restrained cool blue reflections. Fill the frame with parts with breathing space between each, no huge empty areas. Premium engineering product catalog quality, clean neutral background. No text, no numbers, no logos, no people. This is a representative process illustration, not a picture of a real factory.
+
+printing
+Use case: product-mockup. Premium editorial engineering image for a 3D printing manufacturing service webpage, landscape 3:2. Close view of three realistically additive-manufactured prototype parts on a pale cool-gray tabletop: a white nylon lattice bracket with visible fine powder texture, a charcoal polymer housing showing subtle layer lines, and a small translucent pale-blue resin component with curved geometry. Precise believable engineering forms, no logos, no text. Soft directional studio lighting, shallow but sufficient depth of field, crisp high-end industrial catalog photo, cool blue gray palette, generous balanced arrangement. Representative process illustration rather than a claimed customer's manufactured parts.
+
+PNG originals are preserved. WebP delivery variants use identical dimensions and quality 88 encoding; no content retouching or compositing.

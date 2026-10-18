@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Website Admin | Metalcorex</title>
+    <meta name="description" content="Secure Metalcorex website administration.">
+    <link rel="icon" href="/favicon.svg?v=metalcorex-logo-2" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.min.css?v=site-20260731-27">
+  </head>
+  <body class="products-page admin-page">
+    <header class="site-header solid-header">
+      <a class="brand" href="/" aria-label="Metalcorex home">
+        <img class="brand-logo" src="/assets/brand/metalcorex-light.svg" alt="Metalcorex">
+      </a>
+    </header>
+    <main>
+      <section class="admin-login-screen">
+        <form class="admin-login-card" method="post" action="/admin-login">
+          <p class="eyebrow">Secure Administration</p>
+          <h1>Metalcorex backend</h1>
+          <label>
+            Username
+            <input name="username" autocomplete="username" required>
+          </label>
+          <label>
+            Password
+            <input name="password" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="button primary full" type="submit">Sign In</button>
+          <p class="form-note">Manage RFQs, website traffic, and published website images.</p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

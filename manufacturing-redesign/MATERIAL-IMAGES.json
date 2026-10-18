@@ -1,0 +1,138 @@
+[
+  {
+    "name": "speaker-grilles",
+    "material": "enclosures",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium B2B custom manufacturing website product illustration, landscape 1536x1024. FOUR custom sheet-metal audio components: a large gently curved rectangular loudspeaker grille with dense evenly spaced small round perforations and folded mounting edges; a circular perforated woofer grille with formed rim; a flat amplifier ventilation panel with clean narrow slots and screw holes; a small bent protective mesh cover. Bare satin silver sheet metal, holes genuinely open showing subtle shadows, consistent realistic sheet thickness and stamped or laser-cut patterns. No black paint, no speakers behind the grilles. All four components fully visible and separated in a tasteful mixed group, three-quarter perspective showing depth and functional details. Bright seamless warm white studio background, high-key soft diffused lighting, realistic engineering geometry, subtle grounding shadows. Group fills 80 percent of frame, generous margins. No text, logos, watermarks, people or tools. Illustrative custom parts, not actual customer projects.",
+    "original": "originals/speaker-grilles.png",
+    "web": "web/speaker-grilles.webp"
+  },
+  {
+    "name": "plastic-waveguides",
+    "material": "plastic",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium B2B custom manufacturing website product illustration, landscape 1536x1024. FOUR injection-molded audio components: one broad rectangular white acoustic waveguide with a smooth continuously flaring horn contour from a small round throat to a wide rectangular mouth, substantial mounting flange with four screw holes; a smaller pale blue elliptical waveguide with smooth acoustic flare; an ivory circular horn/waveguide with central throat and mounting rim; one light gray molded waveguide adapter ring showing mounting bosses and ribs. Clearly plastic, matte fine molded finish, no metallic surfaces. Waveguide cavities must be smooth and continuous, physically plausible acoustic horn shapes, no random holes in acoustic surfaces. No speaker cones, no electronics, no assembled loudspeakers. All four components fully visible and separated in a tasteful mixed group, three-quarter perspective showing depth and functional details. Bright seamless warm white studio background, high-key soft diffused lighting, realistic engineering geometry, subtle grounding shadows. Group fills 80 percent of frame, generous margins. No text, logos, watermarks, people or tools. Illustrative custom parts, not actual customer projects.",
+    "original": "originals/plastic-waveguides.png",
+    "web": "web/plastic-waveguides.webp"
+  },
+  {
+    "name": "large-amplifier-chassis",
+    "material": "enclosures",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium industrial B2B manufacturing website photograph, landscape 1536x1024. A carefully arranged group of FOUR LARGE sheet metal enclosure components for power amplifiers and rack-mounted industrial equipment: a wide deep open amplifier chassis with folded side walls, rows of ventilation slots, mounting bosses and rack ears; a tall empty rack-mount amplifier enclosure shell with a silver front panel and large circular and rectangular connector cutouts on a visible rear panel; a detached broad perforated ventilation top cover; a large folded internal mounting tray with slotted mounting holes. These must clearly look like LARGE wide deep equipment housings, not tiny brackets. Realistically manufacturable sheet metal bends, uniform thin sheet walls, bend reliefs, plausible screws and mounting hole patterns. No assembled electronics, no speakers, no cables. All parts natural bright silver satin sheet metal, uncoated aluminum/steel appearance, NO black-painted surfaces. Three-quarter perspective, four parts clearly separated, wide open chassis is largest focal object, composition fills 80 percent of frame with margins. Bright clean warm white studio background, soft shadows, premium realistic engineering product photography. No logos, text, dimensions, watermarks or brand names. Illustrative custom sheet metal parts, not a claim of a stocked or certified product.",
+    "original": "originals/large-amplifier-chassis.png",
+    "web": "web/large-amplifier-chassis.webp"
+  },
+  {
+    "name": "stainless-316-valve",
+    "material": "stainless",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. A premium B2B precision manufacturing catalog photograph, landscape 1536x1024. Curated group of SIX distinct precision valve component reference geometries represented in natural silver 316 stainless steel: compact machined valve body with clearly defined intersecting threaded ports; slender polished stepped valve stem with a threaded end; precision annular valve seat with a clean conical sealing surface; cylindrical spool valve core with distinct grooves and lands; a small flanged gland bushing; a threaded tube connection adapter. All separate parts fully visible and separated, arranged neatly on bright seamless white/light gray studio surface, three-quarter view. Realistic precisely machined stainless steel, fine satin turning marks contrasted with polished functional sealing surfaces, crisp plausible threads, accurate circular bores, varied sizes. Professional engineering catalog aesthetic, soft high-key diffused light, subtle grounding shadows, natural silver only. No complete assembled valve, no handles, no black parts, no brass, no text, logos, numbers or watermarks. Illustrative material and component examples, not actual certified or pressure-rated products.",
+    "original": "originals/stainless-316-valve.png",
+    "web": "web/stainless-316-valve.webp"
+  },
+  {
+    "name": "aluminum-five-axis",
+    "material": "aluminum",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium industrial engineering website illustration, landscape 1536x1024. A curated group of FOUR visibly complex five-axis CNC machined aluminum alloy components on a bright seamless warm white studio surface. 1: a sophisticated aluminum centrifugal impeller with clean curved swept blades and a central bore, plausible machinable geometry. 2: a sculpted thin-wall aerospace-style structural bracket with deep milled pockets, angled mounting lugs and gently curved ribs, no claim of actual aircraft use. 3: a complex curved aluminum housing with deep cavities, angled bores and precise multi-face features. 4: a compact sculptural aluminum manifold with multiple oblique drilled ports and smoothly contoured external surfaces. All parts natural bright SILVER aluminum, fine realistic milling toolpath marks, crisp realistic edges, sophisticated precise geometries; no black or dark coatings, no brass. Tasteful separated arrangement, all four parts fully visible, three-quarter camera angle, soft neutral high-key diffused lighting, subtle grounding shadows, product group fills 80 percent of frame. Distinct varied geometries, no impossible floating features or rough unfinished surfaces. No text, numbers, logos, watermarks, hands, tools, machines. Illustrative custom machining examples, not actual customer projects.",
+    "original": "originals/aluminum-five-axis.png",
+    "web": "web/aluminum-five-axis.webp"
+  },
+  {
+    "name": "brass-turned",
+    "material": "brass",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five warm golden brass CNC turned parts: stepped bushings, a threaded adapter, a knurled knob, a small shaft and a flanged sleeve. Realistic machining marks and golden uncoated brass, varied heights and shapes. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/brass-turned.png",
+    "web": "web/brass-turned.webp"
+  },
+  {
+    "name": "brass-milled",
+    "material": "brass",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Four golden brass precision milled components: compact valve manifold with drilled ports, rectangular pocketed block, mounting bracket and circular flange with bolt holes. Clear gold brass material, precise edges. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/brass-milled.png",
+    "web": "web/brass-milled.webp"
+  },
+  {
+    "name": "stainless-turned",
+    "material": "stainless",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five bright stainless steel turned components: flanged sleeve, stepped shaft, threaded coupling, bored spacer and small nozzle. Brushed silver surfaces, realistic threads, refined machining. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/stainless-turned.png",
+    "web": "web/stainless-turned.webp"
+  },
+  {
+    "name": "stainless-fabricated",
+    "material": "stainless",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Four clean silver stainless steel fabricated parts: bent L bracket, perforated flat plate, small open folded enclosure and short curved tube. Satin brushed steel with visible fabrication details. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/stainless-fabricated.png",
+    "web": "web/stainless-fabricated.webp"
+  },
+  {
+    "name": "plastic-machined",
+    "material": "plastic",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five machined engineering plastic components in natural ivory, white and soft blue: POM-style bushings, a cream PEEK-like block with pockets, white toothed wheel, blue slotted bracket and short white roller. Opaque polymer surfaces, no black parts. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/plastic-machined.png",
+    "web": "web/plastic-machined.webp"
+  },
+  {
+    "name": "plastic-molded",
+    "material": "plastic",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five injection molded polymer components: white ribbed housing, pale blue snap-fit cover, ivory mounting clip, light gray fan frame and translucent pale blue small enclosure. Realistic molded ribs and bosses, no black parts. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/plastic-molded.png",
+    "web": "web/plastic-molded.webp"
+  },
+  {
+    "name": "silicone-seals",
+    "material": "silicone",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Six silicone rubber reference components: translucent milky gasket, terracotta orange O ring, light blue bellows, white sealing lip, pale red flat flange gasket and soft ivory plug. Clearly flexible matte silicone, realistic smooth elastomer surfaces. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/silicone-seals.png",
+    "web": "web/silicone-seals.webp"
+  },
+  {
+    "name": "silicone-molded",
+    "material": "silicone",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five silicone molded reference components: pastel blue protective boot, translucent white button membrane, rust-red soft vibration pad, ivory suction cup and pale gray flexible sleeve. Soft realistic silicone, no black parts. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/silicone-molded.png",
+    "web": "web/silicone-molded.webp"
+  },
+  {
+    "name": "steel-machined",
+    "material": "steel",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five uncoated carbon steel machined components: a light silver-gray stepped shaft, a precision bored block, toothed sprocket, rectangular keyed coupling and flange. Steel shows subtle cool-gray metallic variation and clean machined texture, absolutely no black oxide finish or rust. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/steel-machined.png",
+    "web": "web/steel-machined.webp"
+  },
+  {
+    "name": "steel-fabricated",
+    "material": "steel",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Four bright bare steel fabricated components: bent mounting clevis, slotted baseplate, small welded rectangular frame and stamped retaining bracket. Natural light gray steel, realistic subtle weld seams, no black coating, no rust. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/steel-fabricated.png",
+    "web": "web/steel-fabricated.webp"
+  },
+  {
+    "name": "aluminum-machined",
+    "material": "aluminum",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five bright aluminum alloy CNC machined parts: silver pocketed housing, flanged round adapter, ribbed mounting bracket, small blue anodized knob and champagne anodized rectangular precision block. Mostly natural silver aluminum, lively restrained accents. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/aluminum-machined.png",
+    "web": "web/aluminum-machined.webp"
+  },
+  {
+    "name": "aluminum-profiles",
+    "material": "aluminum",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Create one premium industrial B2B website product photograph, landscape 1536x1024. Five aluminum alloy reference parts: silver finned heat sink, short hollow rectangular extrusion, T-slot rail section, silver machined end plate and light champagne anodized U channel. Clean cut cross sections and realistic fine metallic textures. Arrange all components together as a tasteful curated group, with clear spacing and no overlaps obscuring key forms, three-quarter camera angle. Bright seamless warm white/light gray studio background, soft grounding shadows, high-key diffused lighting, crisp physically plausible geometries and material detail. The group fills 80 percent of frame with generous margin. Professional European engineering catalog aesthetic. No text, numbers, logos, watermarks, tools, hands, machines or black background. These are illustrative custom part examples.",
+    "original": "originals/aluminum-profiles.png",
+    "web": "web/aluminum-profiles.webp"
+  }
+]

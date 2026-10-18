@@ -1,0 +1,34 @@
+Metalcorex expanded manufacturing website — 2026-10-17
+
+Layout / information architecture reference:
+https://www.xometry.com/
+https://www.xometry.com/capabilities/cnc-machining-service/
+https://www.xometry.com/capabilities/sheet-metal-fabrication/
+https://www.xometry.com/capabilities/injection-molding-quote/
+https://www.xometry.com/capabilities/die-casting-services/
+https://www.xometry.com/capabilities/metal-extrusion-services/
+
+Original Metalcorex copy; no Xometry photos, brand assets, proprietary copy or capability numbers imported.
+
+All 14 line-icon designs are original SVG code created for this redesign.
+Existing photos and material / finish samples are from the recovered website asset library.
+The CMM illustration is from the existing assets/ai-visuals library and labeled as an illustration.
+
+New images generated using the built-in image_gen tool:
+website/assets/manufacturing-parts-illustration.png
+Prompt brief: Premium landscape 3:2 studio catalog photograph on a pale cool-gray background of six representative engineered parts: silver CNC housing with machined pockets, bent stainless bracket, matte black molded cover, aluminum extrusion heat sink, gray die-cast housing and white printed lattice. Cool soft lighting; no text, logos or people. Illustrative components, not a factory or customer project claim.
+
+website/assets/printed-parts-illustration.png
+Prompt brief: Premium landscape 3:2 studio photograph of a white nylon lattice bracket, charcoal polymer housing with visible layer lines and translucent pale-blue resin component on a gray tabletop. Soft light; no text or logos. Representative additive components, not a customer project claim.
+
+These image files preserve the generated originals without creative post-editing. The site uses CSS object-fit for responsive display.
+
+Web delivery uses same-dimension WebP encoding at quality 88; PNG originals remain included. See IMAGE-PROMPTS.txt for exact prompts.
+
+Revision 3 — 2026-10-17:
+Seven new process illustrations in website/assets/process-v3, generated using built-in image_gen. Exact prompts and asset paths: PROCESS-IMAGES.json. Original generated PNGs are preserved in the user deliverable outputs/metalcorex-image-upgrade/originals. WebP variants use quality 90 at original size and quality 88 at 768×512. Only delivery-format conversion and proportional resampling were applied.
+
+The 24 component references come from the pre-existing website/assets/product-catalog-v2 collection. Their image content was not modified. Reference titles, manufacturing categories and quote links were added for browsing; no customer-project, performance or certification claims were added.
+
+Official identity update — 2026-10-17:
+Owner-supplied accent1.svg and blob-once.svg provide the exact same Metalcorex outline geometry. The dark and white wordmark assets preserve those paths with a tighter viewBox for practical header/footer spacing. The favicon uses the supplied X outline on the supplied navy brand color. Original files are retained in website/assets/brand. No AI generation was used for the logo.

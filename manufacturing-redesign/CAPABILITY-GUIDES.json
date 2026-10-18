@@ -1,0 +1,1640 @@
+[
+  {
+    "slug": "cnc-milling",
+    "headline": "Complex features, cut from solid stock.",
+    "intro": "A rotating cutting tool removes material from a clamped workpiece. Milling creates pockets, slots, mounting faces and contoured surfaces in metal or engineering plastic. Setup strategy determines which features can be machined together and how their positions relate to the drawing datums.",
+    "steps": [
+      [
+        "Plan datums and tool access",
+        "Review the model, corner radii and critical interfaces."
+      ],
+      [
+        "Prepare the blank",
+        "Secure stock in a vise or dedicated fixture with room for the cutter."
+      ],
+      [
+        "Rough and finish",
+        "Remove bulk material before finishing walls, bores and mating faces."
+      ],
+      [
+        "Deburr and verify",
+        "Check dimensions and edge condition before any specified surface treatment."
+      ]
+    ],
+    "design": [
+      "Use internal radii that a cutter can reach.",
+      "Avoid unnecessarily deep, narrow pockets.",
+      "Identify functional tolerances rather than tightening every dimension."
+    ],
+    "applications": [
+      "Equipment housings",
+      "Mounting brackets",
+      "Manifold blocks"
+    ],
+    "materials": "Aluminum, stainless steel, steel, brass and suitable engineering plastics.",
+    "image": "cnc",
+    "name": "CNC Milling",
+    "group": "CNC Machining",
+    "parent": "cnc-machining",
+    "visual_alt": "Rotating cutter machining a metal housing"
+  },
+  {
+    "slug": "cnc-turning",
+    "headline": "Rotational parts with controlled interfaces.",
+    "intro": "Turning rotates the workpiece while a cutting tool shapes its outside or inside diameter. It is well suited to shafts, bushings and threaded adapters. Additional milling can create flats or cross-holes when the part needs features away from the central axis.",
+    "steps": [
+      [
+        "Define the profile",
+        "Review diameters, shoulders, bores, threads and datum references."
+      ],
+      [
+        "Hold and face stock",
+        "Support the bar or blank and establish a reference face."
+      ],
+      [
+        "Turn functional features",
+        "Machine outside diameters, bores, grooves and specified threads."
+      ],
+      [
+        "Part off and inspect",
+        "Finish the second end and check fits, runout and edge condition as specified."
+      ]
+    ],
+    "design": [
+      "Provide thread designation and engagement length.",
+      "Allow relief at shoulders where mating parts must seat.",
+      "Flag slender sections that may deflect during cutting."
+    ],
+    "applications": [
+      "Shafts and spacers",
+      "Threaded adapters",
+      "Precision bushings"
+    ],
+    "materials": "Aluminum, brass, steels, stainless steels and machinable plastics.",
+    "image": "turning",
+    "name": "CNC Turning",
+    "group": "CNC Machining",
+    "parent": "cnc-machining",
+    "visual_alt": "Lathe tool turning a stepped metal shaft"
+  },
+  {
+    "slug": "cnc-routing",
+    "headline": "Flat stock, shaped into useful components.",
+    "intro": "CNC routing moves a rotating cutter through sheet or panel stock to create profiles, pockets and holes. It is useful for relatively large, flat components and nested part layouts. Material stiffness, tool choice and support across the panel influence edge quality and dimensional stability.",
+    "steps": [
+      [
+        "Review the panel layout",
+        "Confirm thickness, grain or surface direction and finished edges."
+      ],
+      [
+        "Secure the sheet",
+        "Use appropriate fixtures or vacuum workholding to support the cut."
+      ],
+      [
+        "Route the features",
+        "Machine profiles and pockets in a sequence that retains part stability."
+      ],
+      [
+        "Release and finish",
+        "Remove tabs where used, finish edges and check the profile."
+      ]
+    ],
+    "design": [
+      "Keep small parts securely supported throughout the cut.",
+      "Specify visible faces and edge finish.",
+      "Discuss thin webs and large unsupported spans."
+    ],
+    "applications": [
+      "Equipment panels",
+      "Plastic mounting plates",
+      "Flat fixture components"
+    ],
+    "materials": "Suitable plastics, composites, wood-based panels and selected nonferrous metals, subject to review.",
+    "image": "cnc",
+    "name": "CNC Routing",
+    "group": "CNC Machining",
+    "parent": "cnc-machining",
+    "visual_alt": "Rotating cutter machining a metal housing"
+  },
+  {
+    "slug": "swiss-turning",
+    "headline": "Small turned parts, supported close to the cut.",
+    "intro": "Swiss-type turning feeds bar stock through a guide bushing close to the cutting zone. This support helps control deflection on slender features. The machining sequence can combine turning, drilling and compatible secondary operations for intricate rotational components.",
+    "steps": [
+      [
+        "Review bar and features",
+        "Check diameter changes, length-to-diameter ratio and secondary features."
+      ],
+      [
+        "Set the guide system",
+        "Match bar stock, guide bushing and tooling to the job."
+      ],
+      [
+        "Machine in sequence",
+        "Keep cutting close to support while producing the specified features."
+      ],
+      [
+        "Separate and verify",
+        "Complete end features and inspect the critical diameters and positions."
+      ]
+    ],
+    "design": [
+      "Specify material condition and straightness where relevant.",
+      "Call out burr-sensitive holes and small edges.",
+      "Review deep bores and slender features before freezing the design."
+    ],
+    "applications": [
+      "Small shafts",
+      "Connector contacts",
+      "Precision pins"
+    ],
+    "materials": "Machinable stainless steels, steels, brass and other compatible bar materials.",
+    "image": "swiss",
+    "name": "Swiss-Type Turning",
+    "group": "CNC Machining",
+    "parent": "cnc-machining",
+    "visual_alt": "Small precision turned shafts, contacts and bushings"
+  },
+  {
+    "slug": "micro-machining",
+    "headline": "Small features need a deliberate machining plan.",
+    "intro": "Micro machining uses small cutting tools to create miniature parts or fine features. Tool runout, chip evacuation, workholding and measurement become especially important as feature size decreases. The minimum practical feature is evaluated for the material and complete geometry rather than promised as one universal number.",
+    "steps": [
+      [
+        "Define critical features",
+        "Identify which small dimensions affect fit or function."
+      ],
+      [
+        "Plan tooling and holding",
+        "Review cutter reach, tool stiffness and how the part will be secured."
+      ],
+      [
+        "Machine with controlled passes",
+        "Use a sequence suited to the small tool and material."
+      ],
+      [
+        "Inspect accessible features",
+        "Agree a measurement method and edge condition for miniature geometry."
+      ]
+    ],
+    "design": [
+      "Avoid deep features that force very slender tools.",
+      "Provide magnified drawing details for small edges.",
+      "Agree how critical features will be measured."
+    ],
+    "applications": [
+      "Miniature housings",
+      "Small instrument components",
+      "Fine-feature inserts"
+    ],
+    "materials": "Selected metals and engineering plastics following a feature-level review.",
+    "image": "swiss",
+    "name": "Micro Machining",
+    "group": "CNC Machining",
+    "parent": "cnc-machining",
+    "visual_alt": "Small precision turned shafts, contacts and bushings"
+  },
+  {
+    "slug": "sheet-metal-fabrication",
+    "headline": "From a flat blank to a functional enclosure.",
+    "intro": "Sheet metal fabrication combines cutting, bending, hardware installation and joining. The part is developed from flat stock, so material thickness and bend geometry shape the design. A coordinated fabrication route keeps mounting holes, cosmetic surfaces and assembly interfaces working together.",
+    "steps": [
+      [
+        "Develop the flat pattern",
+        "Review thickness, bend directions, reliefs and hole locations."
+      ],
+      [
+        "Cut and deburr",
+        "Produce the blank and remove edge burrs before forming."
+      ],
+      [
+        "Form and join",
+        "Bend in a planned sequence, install hardware and weld where required."
+      ],
+      [
+        "Finish and inspect",
+        "Check the formed dimensions, fit and specified coating or surface treatment."
+      ]
+    ],
+    "design": [
+      "Keep holes clear of bend deformation zones.",
+      "Use consistent bend radii where practical.",
+      "Define cosmetic faces and hardware installation direction."
+    ],
+    "applications": [
+      "Machine covers",
+      "Electronics enclosures",
+      "Mounting trays"
+    ],
+    "materials": "Aluminum, stainless steel and carbon steel sheet in a specified grade and thickness.",
+    "image": "sheet",
+    "name": "Sheet Metal Fabrication",
+    "group": "Sheet & Tube Fabrication",
+    "parent": "sheet-metal-fabrication",
+    "visual_alt": "Press brake forming a metal sheet"
+  },
+  {
+    "slug": "sheet-cutting",
+    "headline": "Accurate blanks for the next operation.",
+    "intro": "Sheet cutting produces two-dimensional profiles from flat stock. It can supply finished flat parts or blanks for bending and assembly. The cutting method is selected for the material, thickness, edge requirement and quantity; Metalcorex does not offer waterjet cutting.",
+    "steps": [
+      [
+        "Check the cutting file",
+        "Confirm units, closed profiles, hole sizes and revision."
+      ],
+      [
+        "Plan the sheet",
+        "Review nesting, material direction and part separation."
+      ],
+      [
+        "Cut the blank",
+        "Use the agreed cutting route for the selected sheet."
+      ],
+      [
+        "Check and prepare edges",
+        "Remove burrs and inspect profiles before secondary work."
+      ]
+    ],
+    "design": [
+      "Provide a dimensioned drawing with the cut file.",
+      "Specify edge quality and burr requirements.",
+      "Mark any grain direction or protected surface."
+    ],
+    "applications": [
+      "Flat brackets",
+      "Gaskets and shims where suitable",
+      "Equipment panels"
+    ],
+    "materials": "Compatible metal and nonmetal sheet, with method and thickness confirmed at quotation.",
+    "image": "laser",
+    "name": "Sheet Cutting",
+    "group": "Sheet & Tube Fabrication",
+    "parent": "sheet-metal-fabrication",
+    "visual_alt": "Laser cutting a bracket profile from metal sheet"
+  },
+  {
+    "slug": "laser-cutting",
+    "headline": "Clean sheet profiles with a focused beam.",
+    "intro": "Laser cutting uses concentrated thermal energy and assist gas to separate sheet material. It can produce complex outlines and small internal features without a dedicated blanking die. Material reflectivity, thickness and thermal effects influence the cutting plan and finished edge.",
+    "steps": [
+      [
+        "Review geometry",
+        "Check material, thickness, hole sizes and narrow bridges."
+      ],
+      [
+        "Nest and program",
+        "Arrange parts and choose a suitable cutting sequence."
+      ],
+      [
+        "Cut with assist gas",
+        "Follow the programmed profile while clearing molten material."
+      ],
+      [
+        "Deburr and inspect",
+        "Check edge condition, hole shape and profile dimensions."
+      ]
+    ],
+    "design": [
+      "Consider heat effects near closely spaced features.",
+      "Specify whether edges will be visible or welded.",
+      "Avoid assuming every small hole is feasible at every thickness."
+    ],
+    "applications": [
+      "Ventilation panels",
+      "Flat mounting plates",
+      "Decorative metal profiles"
+    ],
+    "materials": "Steel, stainless steel and aluminum sheet, subject to thickness and feature review.",
+    "image": "laser",
+    "name": "Laser Cutting",
+    "group": "Sheet & Tube Fabrication",
+    "parent": "sheet-metal-fabrication",
+    "visual_alt": "Laser cutting a bracket profile from metal sheet"
+  },
+  {
+    "slug": "laser-tube-cutting",
+    "headline": "Profiles and connections cut directly into tube.",
+    "intro": "Laser tube cutting combines controlled tube positioning with a laser cutting head. It creates holes, slots, end profiles and mating features in round or rectangular stock. Integrating these cuts can simplify later welding and assembly by reducing separate drilling or coping operations.",
+    "steps": [
+      [
+        "Review tube geometry",
+        "Confirm section, wall thickness, seam and feature positions."
+      ],
+      [
+        "Load and locate",
+        "Support the tube and establish its rotational reference."
+      ],
+      [
+        "Cut profiles and openings",
+        "Coordinate motion to produce holes and end features."
+      ],
+      [
+        "Check and deburr",
+        "Verify fit-up geometry, cut edges and internal burr requirements."
+      ]
+    ],
+    "design": [
+      "Identify seam orientation when it matters.",
+      "Check access for internal burr removal.",
+      "Allow realistic clearance at mating tube joints."
+    ],
+    "applications": [
+      "Fabricated frames",
+      "Tubular equipment supports",
+      "Slotted structural members"
+    ],
+    "materials": "Compatible steel, stainless steel and aluminum tubing.",
+    "image": "tube",
+    "name": "Laser Tube Cutting",
+    "group": "Sheet & Tube Fabrication",
+    "parent": "sheet-metal-fabrication",
+    "visual_alt": "Bent tubes and a tube with cut openings"
+  },
+  {
+    "slug": "tube-bending",
+    "headline": "Controlled curves for tubular components.",
+    "intro": "Tube bending forms straight tube around a defined radius. The tube section, wall thickness and bend geometry influence ovality, thinning and springback. Tooling and support are selected around the design, especially for tight bends or multiple bends in different planes.",
+    "steps": [
+      [
+        "Define bend geometry",
+        "Review centerline radii, angles and tangent lengths."
+      ],
+      [
+        "Select support tooling",
+        "Plan clamping and internal support where needed."
+      ],
+      [
+        "Form the bends",
+        "Bend in sequence with allowance for springback."
+      ],
+      [
+        "Trim and verify",
+        "Check end positions, orientation and agreed section distortion."
+      ]
+    ],
+    "design": [
+      "Use consistent centerline radii where practical.",
+      "Leave enough straight length for clamping.",
+      "Dimension the tube centerline and end orientation clearly."
+    ],
+    "applications": [
+      "Handles and rails",
+      "Equipment frames",
+      "Tube routing components"
+    ],
+    "materials": "Steel, stainless steel, aluminum and other suitable tubing after review.",
+    "image": "tube",
+    "name": "Tube Bending",
+    "group": "Sheet & Tube Fabrication",
+    "parent": "sheet-metal-fabrication",
+    "visual_alt": "Bent tubes and a tube with cut openings"
+  },
+  {
+    "slug": "plastic-injection-molding",
+    "headline": "Repeatable plastic geometry from a dedicated tool.",
+    "intro": "Injection molding fills a closed mold with molten thermoplastic. The material cools into the cavity shape before the part is ejected. Tool investment can support repeated production, while wall thickness, gate location and cooling affect part quality and dimensional behavior.",
+    "steps": [
+      [
+        "Review the molded design",
+        "Assess walls, draft, ribs, undercuts and cosmetic faces."
+      ],
+      [
+        "Build and trial the tool",
+        "Machine the mold and evaluate initial samples."
+      ],
+      [
+        "Mold the approved part",
+        "Control filling, packing, cooling and ejection for the selected resin."
+      ],
+      [
+        "Trim and inspect",
+        "Check appearance and critical dimensions against approved criteria."
+      ]
+    ],
+    "design": [
+      "Use relatively uniform walls to reduce sink and warpage.",
+      "Provide draft on surfaces that release from the mold.",
+      "Agree gate and ejector locations before tooling."
+    ],
+    "applications": [
+      "Plastic housings",
+      "Clips and brackets",
+      "Custom covers"
+    ],
+    "materials": "Selected thermoplastics such as ABS, PP, PC and PA; exact grades are reviewed for the application.",
+    "image": "molding",
+    "name": "Plastic Injection Molding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Open injection mold and molded component"
+  },
+  {
+    "slug": "prototype-molding",
+    "headline": "Validate a design in molded material.",
+    "intro": "Prototype molding uses an appropriate tool strategy to make early molded parts. It helps assess material behavior, fit and assembly before committing to a larger production program. Tool life, complexity and planned revisions guide the choice of tooling approach.",
+    "steps": [
+      [
+        "Define the learning objective",
+        "Identify the decisions the molded samples must support."
+      ],
+      [
+        "Review tool strategy",
+        "Balance geometry, expected quantity and possible revisions."
+      ],
+      [
+        "Trial the molding process",
+        "Produce samples in the agreed resin and document issues."
+      ],
+      [
+        "Evaluate and revise",
+        "Check fit and function, then agree any tool or design changes."
+      ]
+    ],
+    "design": [
+      "Separate essential features from details still under development.",
+      "State whether the resin must match the intended production grade.",
+      "Plan how sample findings will feed into the next revision."
+    ],
+    "applications": [
+      "Engineering samples",
+      "Pilot assemblies",
+      "Preproduction fit checks"
+    ],
+    "materials": "Application-specific thermoplastics agreed before the tool is made.",
+    "image": "molding",
+    "name": "Prototype Molding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Open injection mold and molded component"
+  },
+  {
+    "slug": "production-molding",
+    "headline": "A controlled route for repeat molded parts.",
+    "intro": "Production molding turns an approved design, tool and resin into repeat supply. Consistency depends on the tool condition, process settings, material handling and inspection plan. Cosmetic limits, packaging and revision control should be agreed alongside the part drawing.",
+    "steps": [
+      [
+        "Freeze the specification",
+        "Approve the resin, drawing, samples and acceptance criteria."
+      ],
+      [
+        "Prepare tool and material",
+        "Check tool readiness and condition resin as required."
+      ],
+      [
+        "Run and monitor",
+        "Produce parts using the agreed process and in-process checks."
+      ],
+      [
+        "Inspect and release",
+        "Confirm lot records, packaging and shipment requirements."
+      ]
+    ],
+    "design": [
+      "Set realistic cosmetic acceptance examples.",
+      "Identify critical dimensions and sampling expectations.",
+      "Communicate projected volumes and revision changes early."
+    ],
+    "applications": [
+      "Repeat housings",
+      "Production covers",
+      "Functional molded components"
+    ],
+    "materials": "Approved resin grades and colors defined for the production program.",
+    "image": "molding",
+    "name": "Production Molding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Open injection mold and molded component"
+  },
+  {
+    "slug": "insert-molding",
+    "headline": "Metal and plastic, integrated in one molded part.",
+    "intro": "Insert molding places a prepared component inside a mold before plastic is injected around it. Inserts can provide threads, electrical contacts or reinforced attachment points. Reliable retention depends on insert geometry, location and compatibility with molding pressure and temperature.",
+    "steps": [
+      [
+        "Define the interface",
+        "Specify insert material, retention features and exposed surfaces."
+      ],
+      [
+        "Load the insert",
+        "Locate and support it securely inside the mold."
+      ],
+      [
+        "Mold around the component",
+        "Fill and cool the plastic without displacing the insert."
+      ],
+      [
+        "Verify the assembly",
+        "Check insert position and any agreed retention or functional test."
+      ]
+    ],
+    "design": [
+      "Provide positive retention features rather than relying only on adhesion.",
+      "Review differential thermal expansion.",
+      "Keep exposed contact surfaces clear of unwanted plastic."
+    ],
+    "applications": [
+      "Threaded plastic mounts",
+      "Embedded contacts",
+      "Reinforced attachment components"
+    ],
+    "materials": "Selected thermoplastics with compatible metal or other preformed inserts.",
+    "image": "overmold",
+    "name": "Insert Molding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Polymer grip with elastomer overmold and insert-molded block"
+  },
+  {
+    "slug": "overmolding",
+    "headline": "Add grip, protection or a second material.",
+    "intro": "Overmolding forms a second material over an existing substrate. It can create a soft-touch grip, protective edge or integrated interface. Material pairing, mechanical interlocks and substrate condition affect the bond, so intended use must guide the design.",
+    "steps": [
+      [
+        "Choose the material pair",
+        "Review hardness, environment and bonding expectations."
+      ],
+      [
+        "Prepare the substrate",
+        "Produce or supply the first component with defined condition."
+      ],
+      [
+        "Mold the second material",
+        "Locate the substrate and form the overmold."
+      ],
+      [
+        "Inspect the interface",
+        "Check coverage, flash and any agreed adhesion or functional criteria."
+      ]
+    ],
+    "design": [
+      "Do not assume all polymers bond to one another.",
+      "Use mechanical retention when appropriate.",
+      "Define shutoff edges and exposed cosmetic surfaces."
+    ],
+    "applications": [
+      "Handheld grips",
+      "Protective bumpers",
+      "Integrated soft-touch components"
+    ],
+    "materials": "Compatible thermoplastic or elastomer systems on a reviewed substrate.",
+    "image": "overmold",
+    "name": "Overmolding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Polymer grip with elastomer overmold and insert-molded block"
+  },
+  {
+    "slug": "micro-molding",
+    "headline": "Small molded features with careful process control.",
+    "intro": "Micro molding produces miniature plastic components using tooling and process planning suited to small volumes and fine geometry. Filling, venting and handling are closely linked. Inspection and part separation also need attention because tiny features can be damaged after molding.",
+    "steps": [
+      [
+        "Review the miniature geometry",
+        "Check walls, flow paths and measurement access."
+      ],
+      [
+        "Plan gates and tooling",
+        "Define cavity details, venting and ejection strategy."
+      ],
+      [
+        "Mold and stabilize",
+        "Control the material and cycle for the approved design."
+      ],
+      [
+        "Handle and inspect",
+        "Separate, protect and measure parts using agreed methods."
+      ]
+    ],
+    "design": [
+      "Keep flow paths and walls practical for the resin.",
+      "Identify damage-sensitive edges.",
+      "Agree packaging for small parts before production."
+    ],
+    "applications": [
+      "Miniature connectors",
+      "Small mechanism parts",
+      "Fine-feature plastic inserts"
+    ],
+    "materials": "Selected thermoplastics, with grade and flow behavior reviewed for the geometry.",
+    "image": "molding",
+    "name": "Micro Molding",
+    "group": "Injection Molding",
+    "parent": "injection-molding",
+    "visual_alt": "Open injection mold and molded component"
+  },
+  {
+    "slug": "plastic-3d-printing",
+    "headline": "Choose the printing route around the part's job.",
+    "intro": "Plastic 3D printing builds polymer parts layer by layer from a digital model. Extrusion, powder-bed and resin processes offer different tradeoffs in surface quality, geometry and material behavior. Selecting the process around the application is more useful than treating all printed plastics as interchangeable.",
+    "steps": [
+      [
+        "Define the application",
+        "State loads, temperature, appearance and assembly requirements."
+      ],
+      [
+        "Choose the process",
+        "Compare material, orientation, support and surface tradeoffs."
+      ],
+      [
+        "Build and post-process",
+        "Print the part and complete cleaning or curing as needed."
+      ],
+      [
+        "Evaluate the result",
+        "Check fit and function against the purpose of the build."
+      ]
+    ],
+    "design": [
+      "Account for process-dependent directional properties.",
+      "Provide clearance for mating components.",
+      "Identify visible faces and support-sensitive details."
+    ],
+    "applications": [
+      "Design prototypes",
+      "Assembly fixtures",
+      "Custom low-volume components"
+    ],
+    "materials": "Process-compatible thermoplastics or photopolymers selected for intended use.",
+    "image": "powder",
+    "name": "Plastic 3D Printing",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Powder-textured polymer parts with complex geometry"
+  },
+  {
+    "slug": "fdm",
+    "headline": "Thermoplastic filament, deposited layer by layer.",
+    "intro": "FDM extrudes softened thermoplastic through a nozzle along programmed paths. It is useful for form studies, fixtures and selected functional parts. Layer orientation, wall construction and support placement influence strength, appearance and the way the part behaves in service.",
+    "steps": [
+      [
+        "Prepare the model",
+        "Review walls, overhangs and mating features."
+      ],
+      [
+        "Orient and slice",
+        "Set the build direction, toolpaths and support strategy."
+      ],
+      [
+        "Deposit the layers",
+        "Build the part using the selected thermoplastic."
+      ],
+      [
+        "Remove supports and check",
+        "Finish contact points and evaluate fit and function."
+      ]
+    ],
+    "design": [
+      "Orient the part with expected loads in mind.",
+      "Avoid unsupported overhangs where possible.",
+      "Do not assume infill behaves like solid molded material."
+    ],
+    "applications": [
+      "Jigs and fixtures",
+      "Enclosure prototypes",
+      "Fit-check models"
+    ],
+    "materials": "Compatible thermoplastic filaments; grade and machine suitability are confirmed per project.",
+    "image": "printing",
+    "name": "Fused Deposition Modeling (FDM)",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Extrusion printer building a polymer bracket"
+  },
+  {
+    "slug": "mjf",
+    "headline": "Powder-bed polymer parts for complex geometry.",
+    "intro": "HP Multi Jet Fusion applies agents to a polymer powder layer and uses thermal energy to fuse selected regions. Loose surrounding powder supports the build. After cooling, parts are recovered and cleaned, with finishing selected for appearance or function.",
+    "steps": [
+      [
+        "Plan the build",
+        "Review orientation, nesting and powder-removal paths."
+      ],
+      [
+        "Apply agents and energy",
+        "Fuse selected areas across successive powder layers."
+      ],
+      [
+        "Cool and recover",
+        "Allow controlled cooling before extracting the components."
+      ],
+      [
+        "Clean and finish",
+        "Remove residual powder and complete the agreed surface treatment."
+      ]
+    ],
+    "design": [
+      "Include access to remove powder from hollow spaces.",
+      "Review thin walls and large flat areas for distortion.",
+      "Define whether holes or mating faces need secondary work."
+    ],
+    "applications": [
+      "Functional housings",
+      "Ducts and manifolds",
+      "Clips and brackets"
+    ],
+    "materials": "Supported polymer powders, commonly PA-based materials; exact grade is confirmed in the quote.",
+    "image": "powder",
+    "name": "HP Multi Jet Fusion (MJF)",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Powder-textured polymer parts with complex geometry"
+  },
+  {
+    "slug": "sls",
+    "headline": "Laser-sintered polymers with freedom of form.",
+    "intro": "SLS uses a laser to fuse selected areas of polymer powder. The surrounding powder supports the part during the build, enabling complex forms without separate support structures in many cases. Cooling and powder removal remain important parts of the manufacturing route.",
+    "steps": [
+      [
+        "Review the geometry",
+        "Check walls, clearances and trapped-powder risks."
+      ],
+      [
+        "Spread and sinter",
+        "Repeat powder layers and laser exposure to form the part."
+      ],
+      [
+        "Cool the build",
+        "Manage cooling before recovery to limit distortion."
+      ],
+      [
+        "Depowder and inspect",
+        "Clean surfaces and check functional features."
+      ]
+    ],
+    "design": [
+      "Provide powder escape openings for enclosed volumes.",
+      "Avoid large abrupt changes in wall thickness.",
+      "Allow finishing or machining for critical fits if needed."
+    ],
+    "applications": [
+      "Complex ducts",
+      "Functional prototypes",
+      "Lightweight brackets"
+    ],
+    "materials": "Suitable polymer powders, often nylon-based, selected by application.",
+    "image": "powder",
+    "name": "Selective Laser Sintering (SLS)",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Powder-textured polymer parts with complex geometry"
+  },
+  {
+    "slug": "sla",
+    "headline": "Fine-detail resin models with a refined surface.",
+    "intro": "SLA selectively cures liquid photopolymer resin with light to build a part layer by layer. It is useful for detailed models, appearance studies and precision fit evaluation. Resin selection and post-curing influence performance; a smooth surface alone does not indicate suitability for long-term loading.",
+    "steps": [
+      [
+        "Prepare and support",
+        "Orient the part and place supports away from important faces."
+      ],
+      [
+        "Cure the layers",
+        "Form the geometry through controlled light exposure."
+      ],
+      [
+        "Wash and post-cure",
+        "Remove uncured resin and complete the specified cure."
+      ],
+      [
+        "Finish and evaluate",
+        "Remove supports and check dimensions and appearance."
+      ]
+    ],
+    "design": [
+      "Identify visible surfaces before support planning.",
+      "Provide drainage for hollow geometry.",
+      "Choose resin against actual temperature and mechanical needs."
+    ],
+    "applications": [
+      "Appearance models",
+      "Fine-feature prototypes",
+      "Master patterns"
+    ],
+    "materials": "Compatible photopolymer resins, including application-specific rigid or flexible grades.",
+    "image": "resin",
+    "name": "Stereolithography (SLA)",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Detailed resin enclosure and model"
+  },
+  {
+    "slug": "polyjet",
+    "headline": "Detailed models through material jetting.",
+    "intro": "PolyJet deposits small droplets of photopolymer and cures them with ultraviolet light. Compatible systems can combine materials to explore visual and tactile design. Support removal and material aging must be considered when evaluating delicate features or functional use.",
+    "steps": [
+      [
+        "Define model requirements",
+        "Specify appearance, feel and any material transitions."
+      ],
+      [
+        "Prepare the build",
+        "Orient features and plan support access."
+      ],
+      [
+        "Jet and cure",
+        "Deposit and cure successive layers of model and support material."
+      ],
+      [
+        "Clean and evaluate",
+        "Remove support and inspect the finished model."
+      ]
+    ],
+    "design": [
+      "Provide access for support removal.",
+      "Avoid fragile details that may break during cleaning.",
+      "Confirm the exact material combination instead of assuming all combinations are available."
+    ],
+    "applications": [
+      "Design presentation models",
+      "Soft-touch concept models",
+      "Detailed fit prototypes"
+    ],
+    "materials": "Compatible jettable photopolymers and supported material combinations.",
+    "image": "resin",
+    "name": "PolyJet",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Detailed resin enclosure and model"
+  },
+  {
+    "slug": "carbon-dls",
+    "headline": "Light-based printing with a material-specific cure.",
+    "intro": "Carbon Digital Light Synthesis uses projected light and an oxygen-permeable interface to form resin parts. Subsequent processing, including thermal curing for applicable materials, develops the intended material properties. Resin choice, orientation and the full finishing route are evaluated together.",
+    "steps": [
+      [
+        "Match resin to the application",
+        "Review loading, temperature and intended service conditions."
+      ],
+      [
+        "Plan and print",
+        "Orient the geometry and form it using the DLS process."
+      ],
+      [
+        "Clean and cure",
+        "Follow the post-processing route required by the selected resin."
+      ],
+      [
+        "Inspect and validate",
+        "Check dimensions and application-specific performance criteria."
+      ]
+    ],
+    "design": [
+      "Review support placement on cosmetic and functional surfaces.",
+      "Use the selected resin's data rather than generic plastic assumptions.",
+      "Discuss lattice cleanability and inspection access."
+    ],
+    "applications": [
+      "Elastomeric components",
+      "Complex functional parts",
+      "Lattice design applications"
+    ],
+    "materials": "Supported Carbon resins; material availability and application suitability are confirmed per project.",
+    "image": "resin",
+    "name": "Carbon DLS",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Detailed resin enclosure and model"
+  },
+  {
+    "slug": "metal-3d-printing",
+    "headline": "Metal geometry beyond conventional tool access.",
+    "intro": "Metal additive manufacturing builds parts from digital geometry using a process suited to the alloy and application. It can enable internal channels and complex lightweight forms. Build orientation, thermal behavior, supports and secondary machining are part of the design rather than afterthoughts.",
+    "steps": [
+      [
+        "Select the route",
+        "Compare process, alloy and required final properties."
+      ],
+      [
+        "Plan the build",
+        "Review supports, channels and machining allowances."
+      ],
+      [
+        "Build and consolidate",
+        "Complete the selected additive and thermal processing route."
+      ],
+      [
+        "Finish and inspect",
+        "Remove supports where present and machine critical interfaces as agreed."
+      ]
+    ],
+    "design": [
+      "Provide access to remove trapped powder.",
+      "Avoid inaccessible supports.",
+      "Mark surfaces that need machining after printing."
+    ],
+    "applications": [
+      "Complex manifolds",
+      "Lightweight brackets",
+      "Custom metal prototypes"
+    ],
+    "materials": "Alloys compatible with the selected additive route, subject to project review.",
+    "image": "metal-additive",
+    "name": "Metal 3D Printing",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Illustrative metal additive components with complex geometry"
+  },
+  {
+    "slug": "dmls",
+    "headline": "Laser powder-bed fusion for intricate metal parts.",
+    "intro": "DMLS uses a laser to fuse metal powder in successive layers. Metal supports can anchor parts and help manage heat during the build. The finished component may need thermal treatment, support removal and machining before it meets its functional requirements.",
+    "steps": [
+      [
+        "Plan orientation and support",
+        "Review overhangs, thermal distortion and finishing access."
+      ],
+      [
+        "Build layer by layer",
+        "Spread powder and selectively fuse the cross-sections."
+      ],
+      [
+        "Release and post-process",
+        "Complete the agreed thermal treatment and remove the part from its supports."
+      ],
+      [
+        "Machine and inspect",
+        "Finish critical interfaces and verify specified dimensions."
+      ]
+    ],
+    "design": [
+      "Design channels so powder can be removed.",
+      "Leave stock where machining is required.",
+      "Do not assume as-built surfaces meet sealing or bearing requirements."
+    ],
+    "applications": [
+      "Internal-channel components",
+      "Lightweight metal structures",
+      "Complex custom housings"
+    ],
+    "materials": "Supported metal powders such as selected steel, aluminum or titanium alloys, confirmed per project.",
+    "image": "metal-additive",
+    "name": "Direct Metal Laser Sintering (DMLS)",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Illustrative metal additive components with complex geometry"
+  },
+  {
+    "slug": "metal-binder-jetting",
+    "headline": "Print the shape, then consolidate the metal.",
+    "intro": "Metal binder jetting deposits binder into a powder bed to create a fragile green part. Subsequent curing, depowdering and sintering consolidate the material. Shrinkage and support during sintering are central to dimensional planning and cannot be treated like laser powder-bed processing.",
+    "steps": [
+      [
+        "Review geometry and shrinkage",
+        "Plan dimensions around the material and sintering route."
+      ],
+      [
+        "Jet the binder",
+        "Create the green part across successive powder layers."
+      ],
+      [
+        "Cure and depowder",
+        "Recover the fragile part using suitable handling."
+      ],
+      [
+        "Sinter and finish",
+        "Consolidate the metal, then inspect and machine as required."
+      ]
+    ],
+    "design": [
+      "Avoid fragile green-state features.",
+      "Review broad flat spans for sintering distortion.",
+      "Define density and functional requirements explicitly."
+    ],
+    "applications": [
+      "Small metal components",
+      "Complex production candidates",
+      "Parts with repeated geometry"
+    ],
+    "materials": "Compatible metal powders and a qualified sintering route, confirmed during review.",
+    "image": "metal-additive",
+    "name": "Metal Binder Jetting",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Illustrative metal additive components with complex geometry"
+  },
+  {
+    "slug": "production-3d-printing",
+    "headline": "Repeat additive parts with an agreed process.",
+    "intro": "Production 3D printing applies revision control, material selection and acceptance criteria to repeated additive builds. A successful prototype is only the starting point. Build setup, post-processing and inspection need to be consistent enough for the intended use and supply plan.",
+    "steps": [
+      [
+        "Approve the part and route",
+        "Freeze the model, material, orientation and finishing requirements."
+      ],
+      [
+        "Plan repeat builds",
+        "Define batching, handling and traceability needs."
+      ],
+      [
+        "Produce and post-process",
+        "Follow the agreed route across successive lots."
+      ],
+      [
+        "Inspect and release",
+        "Use the agreed acceptance plan and manage any revisions."
+      ]
+    ],
+    "design": [
+      "Validate performance in the intended environment.",
+      "Define cosmetic limits and critical dimensions.",
+      "Keep material or orientation changes under review."
+    ],
+    "applications": [
+      "Repeat custom housings",
+      "Fixture programs",
+      "Low-volume functional parts"
+    ],
+    "materials": "Selected polymer or metal additive materials with a defined production route.",
+    "image": "powder",
+    "name": "Production 3D Printing",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Powder-textured polymer parts with complex geometry"
+  },
+  {
+    "slug": "vapor-smoothing",
+    "headline": "Refine the surface of compatible printed polymers.",
+    "intro": "Vapor smoothing exposes compatible polymer parts to a controlled solvent vapor process that softens and smooths the outer surface. It can improve appearance and reduce surface roughness. Geometry, material compatibility and final fit need review because the treatment can soften edges or alter small features.",
+    "steps": [
+      [
+        "Check compatibility",
+        "Confirm the polymer, geometry and intended application."
+      ],
+      [
+        "Prepare and mask",
+        "Clean the part and identify surfaces requiring protection."
+      ],
+      [
+        "Apply the controlled treatment",
+        "Use the appropriate vapor process for the material."
+      ],
+      [
+        "Condition and inspect",
+        "Allow the required recovery and evaluate the final surface and fit."
+      ]
+    ],
+    "design": [
+      "Review small holes and sharp details.",
+      "Evaluate mating dimensions after treatment.",
+      "Do not assume smoothing creates certified sealing or chemical resistance."
+    ],
+    "applications": [
+      "Visible printed housings",
+      "Handled polymer components",
+      "Appearance-focused prototypes"
+    ],
+    "materials": "Compatible printed polymers only; suitability is assessed for the selected material.",
+    "image": "powder",
+    "name": "Vapor Smoothing",
+    "group": "Additive Manufacturing",
+    "parent": "3d-printing",
+    "visual_alt": "Powder-textured polymer parts with complex geometry"
+  },
+  {
+    "slug": "urethane-silicone-casting",
+    "headline": "Cast polymer parts without a full production mold.",
+    "intro": "Urethane casting commonly uses a master pattern and flexible mold to reproduce low-volume parts. Silicone components use a compatible mold and cure system. The route can support appearance and fit evaluations, but cast materials should not be assumed identical to the thermoplastics they resemble.",
+    "steps": [
+      [
+        "Create the master or mold",
+        "Define the surface, parting line and reproduction details."
+      ],
+      [
+        "Prepare the casting system",
+        "Select the material, mold and mixing procedure."
+      ],
+      [
+        "Cast and cure",
+        "Fill the mold, manage air and complete the required cure."
+      ],
+      [
+        "Demold and inspect",
+        "Trim gates or flash and check dimensions and appearance."
+      ]
+    ],
+    "design": [
+      "Allow for a practical parting line.",
+      "State hardness, color and functional requirements.",
+      "Confirm material properties rather than relying on an ABS-like description."
+    ],
+    "applications": [
+      "Low-volume covers",
+      "Elastomeric components",
+      "Design validation parts"
+    ],
+    "materials": "Selected polyurethane casting resins or silicone systems.",
+    "image": "urethane",
+    "name": "Urethane & Silicone Casting",
+    "group": "Other Plastic Production",
+    "parent": "injection-molding",
+    "visual_alt": "Silicone mold and matching cast polymer cover"
+  },
+  {
+    "slug": "compression-molding",
+    "headline": "Form a material charge with heat and pressure.",
+    "intro": "Compression molding places a measured material charge into a mold and shapes it under pressure, often with heat. The material may flow and cure or cool depending on its system. Charge placement, flash control and demolding affect the final component.",
+    "steps": [
+      [
+        "Review the material and tool",
+        "Define cure or cooling needs, parting lines and release."
+      ],
+      [
+        "Load the charge",
+        "Place the measured material in the tool."
+      ],
+      [
+        "Compress and form",
+        "Apply the specified pressure and temperature cycle."
+      ],
+      [
+        "Demold and trim",
+        "Remove flash and inspect the finished geometry."
+      ]
+    ],
+    "design": [
+      "Plan for flash at the parting line.",
+      "Use draft and radii that support release.",
+      "Review thick sections and inserts with the material system."
+    ],
+    "applications": [
+      "Elastomeric pads",
+      "Custom seals where qualified",
+      "Molded composite components"
+    ],
+    "materials": "Compatible elastomer, thermoset or composite systems following application review.",
+    "image": "molding",
+    "name": "Compression Molding",
+    "group": "Other Plastic Production",
+    "parent": "injection-molding",
+    "visual_alt": "Open injection mold and molded component"
+  },
+  {
+    "slug": "plastic-extrusion",
+    "headline": "Continuous profiles with a consistent section.",
+    "intro": "Plastic extrusion pushes softened polymer through a die to form a continuous cross-section. Cooling and sizing stabilize the profile before cutting or secondary work. It suits parts whose geometry remains largely constant along their length.",
+    "steps": [
+      [
+        "Define the profile",
+        "Review walls, hollows, material and dimensional references."
+      ],
+      [
+        "Prepare the die and material",
+        "Match tooling and polymer to the required section."
+      ],
+      [
+        "Extrude and size",
+        "Form the profile and control cooling and haul-off."
+      ],
+      [
+        "Cut and inspect",
+        "Trim to length and check section dimensions and straightness."
+      ]
+    ],
+    "design": [
+      "Keep wall transitions practical for stable flow.",
+      "Discuss tight dimensions and long unsupported sections.",
+      "Specify cut length and any secondary holes or slots."
+    ],
+    "applications": [
+      "Edge trims",
+      "Protective channels",
+      "Custom plastic profiles"
+    ],
+    "materials": "Compatible thermoplastics such as selected PVC, PE, PP or other extrusion grades.",
+    "image": "plastic-profile",
+    "name": "Plastic Extrusion",
+    "group": "Other Plastic Production",
+    "parent": "injection-molding",
+    "visual_alt": "Polymer extruded profiles with consistent cross-sections"
+  },
+  {
+    "slug": "die-casting",
+    "headline": "Complex metal shapes formed in a reusable die.",
+    "intro": "Die casting fills a metal die with molten alloy under pressure. It can integrate ribs, bosses and other features into a repeatable casting. Parting lines, draft, wall transitions and machining stock influence both the tooling and the finished component.",
+    "steps": [
+      [
+        "Review casting design",
+        "Plan walls, draft, gates, overflows and critical faces."
+      ],
+      [
+        "Build and trial the die",
+        "Evaluate filling and initial part quality."
+      ],
+      [
+        "Cast and trim",
+        "Produce the part and remove runners, gates and flash."
+      ],
+      [
+        "Machine and finish",
+        "Complete critical interfaces and the agreed inspection and surface treatment."
+      ]
+    ],
+    "design": [
+      "Avoid abrupt changes in section thickness.",
+      "Add draft for reliable release.",
+      "Flag leak-tight or internal-quality requirements for specific review."
+    ],
+    "applications": [
+      "Equipment housings",
+      "Structural covers",
+      "Custom metal brackets"
+    ],
+    "materials": "Suitable die-casting alloys, commonly aluminum or zinc, selected by application.",
+    "image": "casting",
+    "name": "Die Casting",
+    "group": "Metal Part Production",
+    "parent": "die-casting",
+    "visual_alt": "Cast metal housing with complex ribs"
+  },
+  {
+    "slug": "metal-stamping",
+    "headline": "Repeat sheet-metal forms from dedicated tooling.",
+    "intro": "Metal stamping uses a press and dies to blank, pierce or form sheet stock. Progressive tooling can combine several operations as the strip advances. Tool investment is considered against expected quantity, geometry and revision stability.",
+    "steps": [
+      [
+        "Develop the tool concept",
+        "Review stock, forming sequence and production quantity."
+      ],
+      [
+        "Make and trial tooling",
+        "Validate blanking, piercing and forming features."
+      ],
+      [
+        "Stamp the parts",
+        "Feed and form the material through the agreed operations."
+      ],
+      [
+        "Deburr and inspect",
+        "Check critical geometry, burr direction and any required finish."
+      ]
+    ],
+    "design": [
+      "Consider material grain and bend direction.",
+      "Identify burr-sensitive faces.",
+      "Avoid freezing tooling before critical dimensions are stable."
+    ],
+    "applications": [
+      "Clips and retainers",
+      "Electrical brackets",
+      "Repeat mounting components"
+    ],
+    "materials": "Selected steel, stainless steel, aluminum, copper or brass sheet.",
+    "image": "stamping",
+    "name": "Metal Stamping",
+    "group": "Metal Part Production",
+    "parent": "die-casting",
+    "visual_alt": "Pierced and formed components along a stamping strip"
+  },
+  {
+    "slug": "metal-extrusion",
+    "headline": "A constant section, engineered for the assembly.",
+    "intro": "Metal extrusion pushes a heated or otherwise suitably conditioned billet through a die to form a profile. Aluminum is a common choice for custom sections. Cutting, machining and finishing turn the profile into ready-to-use components.",
+    "steps": [
+      [
+        "Review the cross-section",
+        "Check walls, hollows and how the profile will be used."
+      ],
+      [
+        "Develop the die",
+        "Plan tooling and review a sample section."
+      ],
+      [
+        "Extrude and condition",
+        "Produce the profile and complete the specified cooling or heat treatment."
+      ],
+      [
+        "Cut and finish",
+        "Machine holes or ends, apply the finish and inspect."
+      ]
+    ],
+    "design": [
+      "Balance wall thickness across the section.",
+      "Review deep narrow channels and thin fins.",
+      "Specify straightness, twist and visible surfaces where important."
+    ],
+    "applications": [
+      "Heat-sink profiles",
+      "Equipment rails",
+      "Custom structural sections"
+    ],
+    "materials": "Compatible extrusion alloys, with aluminum grade and temper defined during review.",
+    "image": "extrusion",
+    "name": "Metal Extrusion",
+    "group": "Metal Part Production",
+    "parent": "die-casting",
+    "visual_alt": "Metal profiles with constant cross-sections"
+  },
+  {
+    "slug": "assembly-services",
+    "headline": "Bring manufactured parts into a working unit.",
+    "intro": "Assembly combines custom parts, purchased hardware and defined procedures into a finished subassembly. Good planning starts with the bill of materials and the interfaces between parts. Fit checks, fastening instructions and functional tests help define what a completed unit means.",
+    "steps": [
+      [
+        "Review the BOM and drawings",
+        "Confirm revisions, part sourcing and assembly interfaces."
+      ],
+      [
+        "Prepare components",
+        "Check incoming parts, finishes and hardware."
+      ],
+      [
+        "Assemble to the instruction",
+        "Fit, fasten or join components in the approved sequence."
+      ],
+      [
+        "Verify and pack",
+        "Perform the agreed checks and protect the assembled unit."
+      ]
+    ],
+    "design": [
+      "Specify fasteners, torque and locking methods where needed.",
+      "Provide acceptance criteria for fit and function.",
+      "Plan access for tools and later service."
+    ],
+    "applications": [
+      "Mechanical subassemblies",
+      "Enclosure assemblies",
+      "Custom hardware kits"
+    ],
+    "materials": "Customer-specified manufactured components, standard hardware and compatible joining materials.",
+    "image": "assembly",
+    "name": "Assembly Services",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Mechanical housing being assembled"
+  },
+  {
+    "slug": "weldments",
+    "headline": "Joined metal parts with fit and distortion in mind.",
+    "intro": "Weldments combine separate metal components into one structure. Joint design, material compatibility, fixtures and welding sequence affect access and distortion. Inspection and finishing requirements should be defined before fabrication, especially where welds are visible or load-bearing.",
+    "steps": [
+      [
+        "Review joints and materials",
+        "Define weld locations, symbols and acceptance criteria."
+      ],
+      [
+        "Prepare and fixture",
+        "Clean joint surfaces and control fit-up."
+      ],
+      [
+        "Weld in sequence",
+        "Join the components with a process suited to the specification."
+      ],
+      [
+        "Inspect and finish",
+        "Check geometry and weld requirements before final finishing."
+      ]
+    ],
+    "design": [
+      "Provide clear weld symbols and joint access.",
+      "Account for distortion and post-weld machining.",
+      "State any required welding qualifications or testing for review."
+    ],
+    "applications": [
+      "Fabricated machine frames",
+      "Welded brackets",
+      "Equipment support structures"
+    ],
+    "materials": "Compatible steel, stainless steel or aluminum with process-specific review.",
+    "image": "sheet",
+    "name": "Weldments",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Press brake forming a metal sheet"
+  },
+  {
+    "slug": "rapid-prototyping",
+    "headline": "Build the part that answers the next question.",
+    "intro": "Rapid prototyping combines machining, printing, casting or fabrication to evaluate a design. A useful prototype has a clear purpose: appearance, fit, assembly or function. Choosing a route against that purpose avoids paying for properties that the test does not need.",
+    "steps": [
+      [
+        "Define the decision",
+        "State what the prototype must prove."
+      ],
+      [
+        "Select a practical route",
+        "Compare geometry, material, finish and revision flexibility."
+      ],
+      [
+        "Build and finish",
+        "Produce the prototype to the agreed scope."
+      ],
+      [
+        "Evaluate and iterate",
+        "Use test findings to update the next revision."
+      ]
+    ],
+    "design": [
+      "Distinguish appearance models from functional test parts.",
+      "Mark dimensions that control the experiment.",
+      "Share the intended production process to expose relevant differences."
+    ],
+    "applications": [
+      "Fit-check models",
+      "Functional prototypes",
+      "Assembly trials"
+    ],
+    "materials": "Metals, engineering plastics or casting and printing materials selected for the test objective.",
+    "image": "printing",
+    "name": "Rapid Prototyping",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Extrusion printer building a polymer bracket"
+  },
+  {
+    "slug": "high-volume-production",
+    "headline": "Plan repeat supply from the approved specification.",
+    "intro": "High-volume production coordinates tooling, material purchasing, capacity and quality planning for repeated orders. The manufacturing method follows the part and demand profile. Stable revisions, acceptance criteria and packaging requirements help avoid variation as the program scales.",
+    "steps": [
+      [
+        "Define the program",
+        "Review forecast, release quantities and critical requirements."
+      ],
+      [
+        "Approve the production route",
+        "Agree tooling, samples and inspection scope."
+      ],
+      [
+        "Run controlled lots",
+        "Manage material, revision and process checks."
+      ],
+      [
+        "Release and improve",
+        "Review quality results and coordinate packaging and shipments."
+      ]
+    ],
+    "design": [
+      "Share forecast ranges rather than only a single order quantity.",
+      "Control changes to drawings and approved samples.",
+      "Define traceability and records before production starts."
+    ],
+    "applications": [
+      "Recurring component programs",
+      "Repeat molded parts",
+      "Stamped or machined production parts"
+    ],
+    "materials": "Materials approved for the chosen manufacturing route and supply program.",
+    "image": "assembly",
+    "name": "High-Volume Production",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Mechanical housing being assembled"
+  },
+  {
+    "slug": "precision-grinding",
+    "headline": "Finish critical geometry with an abrasive process.",
+    "intro": "Precision grinding removes small amounts of material with an abrasive wheel. It can refine dimensions, form and surface condition after earlier machining or heat treatment. The grinding method is chosen around the feature, material hardness and measurement requirement.",
+    "steps": [
+      [
+        "Review the finishing requirement",
+        "Define geometry, surface texture and remaining stock."
+      ],
+      [
+        "Prepare the setup",
+        "Select wheel, dressing and workholding for the feature."
+      ],
+      [
+        "Grind controlled passes",
+        "Manage removal and heat while approaching the final size."
+      ],
+      [
+        "Measure and release",
+        "Verify the specified dimensions and surface condition."
+      ]
+    ],
+    "design": [
+      "Leave an appropriate grinding allowance.",
+      "Define roughness and geometric tolerances explicitly.",
+      "Review access near shoulders and internal corners."
+    ],
+    "applications": [
+      "Shaft bearing seats",
+      "Precision tooling components",
+      "Critical mating features"
+    ],
+    "materials": "Compatible ferrous and nonferrous materials, reviewed for hardness and geometry.",
+    "image": "grinding",
+    "name": "Precision Grinding",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Abrasive wheel grinding a flat metal block"
+  },
+  {
+    "slug": "surface-grinding",
+    "headline": "Flat surfaces with controlled finish and geometry.",
+    "intro": "Surface grinding passes an abrasive wheel over a supported workpiece to create a flat face. It is often used after machining or heat treatment. Workholding, stock allowance and thermal control influence the achievable flatness and relationship between opposite faces.",
+    "steps": [
+      [
+        "Define reference surfaces",
+        "Specify flatness, parallelism, thickness and finish."
+      ],
+      [
+        "Hold and prepare the part",
+        "Support it without introducing unwanted distortion."
+      ],
+      [
+        "Grind the surface",
+        "Use controlled passes and suitable wheel condition."
+      ],
+      [
+        "Inspect in the agreed condition",
+        "Measure after release and stabilization as appropriate."
+      ]
+    ],
+    "design": [
+      "Distinguish flatness from surface roughness.",
+      "Consider how thin parts distort under clamping.",
+      "Define which faces establish parallelism."
+    ],
+    "applications": [
+      "Ground plates",
+      "Tooling blocks",
+      "Flat mating components"
+    ],
+    "materials": "Materials compatible with the selected abrasive and holding method.",
+    "image": "grinding",
+    "name": "Surface Grinding",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Abrasive wheel grinding a flat metal block"
+  },
+  {
+    "slug": "powder-coating",
+    "headline": "A durable-looking finish with specified protection.",
+    "intro": "Powder coating applies dry coating powder to a prepared surface and cures it into a film. Pretreatment, coating chemistry and cure conditions influence adhesion and performance. Color, texture, masking and service environment should be specified together.",
+    "steps": [
+      [
+        "Define the coating",
+        "Agree color, gloss, texture and environmental requirements."
+      ],
+      [
+        "Prepare the substrate",
+        "Clean and pretreat using a suitable route."
+      ],
+      [
+        "Apply and cure",
+        "Deposit powder and complete the specified curing cycle."
+      ],
+      [
+        "Inspect the finish",
+        "Check appearance, coverage and any agreed film or adhesion criteria."
+      ]
+    ],
+    "design": [
+      "Mask threads, grounding points and close fits.",
+      "Account for coating thickness at mating interfaces.",
+      "Specify outdoor or chemical exposure rather than only color."
+    ],
+    "applications": [
+      "Equipment covers",
+      "Fabricated enclosures",
+      "Visible metal brackets"
+    ],
+    "materials": "Compatible metal substrates and powder systems; heat-sensitive assemblies need review.",
+    "image": "coating",
+    "name": "Powder Coating",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Powder spray applied to a metal bracket"
+  },
+  {
+    "slug": "surface-finishing",
+    "headline": "Match the surface to function and appearance.",
+    "intro": "Surface finishing includes mechanical treatments and material-specific coatings or conversion processes. Blasting, brushing and polishing alter texture; anodizing and other treatments require compatible substrates. The selection should address corrosion exposure, appearance and dimensional effects together.",
+    "steps": [
+      [
+        "Define the finish intent",
+        "State texture, color, exposure and functional surfaces."
+      ],
+      [
+        "Confirm compatibility",
+        "Match the treatment to the alloy and prior processing."
+      ],
+      [
+        "Prepare and treat",
+        "Complete cleaning, mechanical work and the selected treatment."
+      ],
+      [
+        "Inspect and protect",
+        "Check the agreed appearance and preserve surfaces during packing."
+      ]
+    ],
+    "design": [
+      "Specify a finish standard or approved sample.",
+      "Mark masked areas and contact points.",
+      "Allow for dimensional changes caused by the treatment."
+    ],
+    "applications": [
+      "Visible machined parts",
+      "Corrosion-exposed components",
+      "Cosmetic panels"
+    ],
+    "materials": "Treatment depends on substrate; aluminum anodizing and appropriate mechanical or coating routes are reviewed individually.",
+    "image": "metal-finish",
+    "name": "Surface Finishing",
+    "group": "Value-Added Services",
+    "parent": "assembly-services",
+    "visual_alt": "Machined aluminum components with different surface finishes"
+  }
+]
