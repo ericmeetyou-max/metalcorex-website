@@ -1,7 +1,7 @@
 {
   "site": "https://metalcorex.com",
-  "version": "2fc11eae-063b-4f70-b4bd-8d0fa5a4828f",
-  "date": "2026-10-17",
+  "version": "893d2ed0-9f06-460c-be24-6f1c7143323c",
+  "date": "2026-10-18",
   "pages": 56,
   "workflow_steps": 192,
   "design_considerations": 142,
@@ -15,14 +15,14 @@
     "Component and process preselection in RFQ"
   ],
   "backend": "unchanged",
-  "previous_version": "7abd2fe9-9b94-4c63-82f1-3cb050f1aa95",
+  "previous_version": "2fc11eae-063b-4f70-b4bd-8d0fa5a4828f",
   "live_verification": [
     "Live Components aluminum filter and both aluminum images verified in browser",
     "Live RFQ material and process preselection verified",
     "Backend unchanged; 56 modern pages pass static validation; three isolated RFQ tests pass",
     "Complex five-axis aluminum collection visible live; aluminum filter now shows three collections",
     "316 valve collection leads the live stainless category",
-    "Large amplifier chassis collection leads dedicated live enclosure filter"
+    "Speaker grilles and plastic acoustic waveguides verified in their live categories"
   ],
   "new_process_images": 7,
   "logo_update": {
@@ -45,25 +45,30 @@
     "validation": "All guide links, images, workflow SVGs and RFQ options checked; desktop and mobile layouts verified; live Overmolding preselection verified"
   },
   "material_collections": {
-    "homepage": 15,
-    "gallery": 15,
+    "homepage": 17,
+    "gallery": 17,
     "materials": 6,
     "photos_per_material": {
       "aluminum": 3,
       "stainless": 3,
-      "other_materials": 2
+      "plastic": 3,
+      "brass": 2,
+      "silicone": 2,
+      "steel": 2
     },
-    "images": "15 AI-generated multi-part illustrations with responsive WebP variants",
+    "images": "17 AI-generated multi-part illustrations with responsive WebP variants",
     "browser_checks": [
       "Desktop 1440px and mobile 390px, no horizontal overflow",
-      "Material filters return two collections each; all returns twelve",
       "Aluminum deep link, loaded images, viewer next and Escape",
       "Silicone RFQ preselects part, process and material",
       "New complex five-axis aluminum collection is first; viewer and quote link verified",
       "316 valve collection viewer and Stainless steel 316 RFQ preselection verified",
-      "Large sheet metal deep link and Sheet Metal Fabrication quote mapping verified"
+      "Large sheet metal deep link and Sheet Metal Fabrication quote mapping verified",
+      "Live plastic filter shows three collections with acoustic waveguides first; injection molding RFQ link verified",
+      "Live sheet metal and enclosures filter shows two collections with speaker grilles first"
     ],
     "filter_categories": 7,
-    "first_collection": "Large amplifier chassis & enclosures"
+    "first_collection": "Speaker grilles & perforated panels",
+    "enclosure_collections": 2
   }
 }

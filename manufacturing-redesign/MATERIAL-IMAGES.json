@@ -1,5 +1,21 @@
 [
   {
+    "name": "speaker-grilles",
+    "material": "enclosures",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium B2B custom manufacturing website product illustration, landscape 1536x1024. FOUR custom sheet-metal audio components: a large gently curved rectangular loudspeaker grille with dense evenly spaced small round perforations and folded mounting edges; a circular perforated woofer grille with formed rim; a flat amplifier ventilation panel with clean narrow slots and screw holes; a small bent protective mesh cover. Bare satin silver sheet metal, holes genuinely open showing subtle shadows, consistent realistic sheet thickness and stamped or laser-cut patterns. No black paint, no speakers behind the grilles. All four components fully visible and separated in a tasteful mixed group, three-quarter perspective showing depth and functional details. Bright seamless warm white studio background, high-key soft diffused lighting, realistic engineering geometry, subtle grounding shadows. Group fills 80 percent of frame, generous margins. No text, logos, watermarks, people or tools. Illustrative custom parts, not actual customer projects.",
+    "original": "originals/speaker-grilles.png",
+    "web": "web/speaker-grilles.webp"
+  },
+  {
+    "name": "plastic-waveguides",
+    "material": "plastic",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: product-mockup. Premium B2B custom manufacturing website product illustration, landscape 1536x1024. FOUR injection-molded audio components: one broad rectangular white acoustic waveguide with a smooth continuously flaring horn contour from a small round throat to a wide rectangular mouth, substantial mounting flange with four screw holes; a smaller pale blue elliptical waveguide with smooth acoustic flare; an ivory circular horn/waveguide with central throat and mounting rim; one light gray molded waveguide adapter ring showing mounting bosses and ribs. Clearly plastic, matte fine molded finish, no metallic surfaces. Waveguide cavities must be smooth and continuous, physically plausible acoustic horn shapes, no random holes in acoustic surfaces. No speaker cones, no electronics, no assembled loudspeakers. All four components fully visible and separated in a tasteful mixed group, three-quarter perspective showing depth and functional details. Bright seamless warm white studio background, high-key soft diffused lighting, realistic engineering geometry, subtle grounding shadows. Group fills 80 percent of frame, generous margins. No text, logos, watermarks, people or tools. Illustrative custom parts, not actual customer projects.",
+    "original": "originals/plastic-waveguides.png",
+    "web": "web/plastic-waveguides.webp"
+  },
+  {
     "name": "large-amplifier-chassis",
     "material": "enclosures",
     "tool": "built-in image_gen",
