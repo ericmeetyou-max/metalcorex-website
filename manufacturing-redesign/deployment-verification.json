@@ -1,0 +1,157 @@
+{
+  "site": "https://metalcorex.com",
+  "version": "8fab5160-226a-45cf-b623-8e1b4ad03833",
+  "date": "2026-10-18",
+  "pages": 56,
+  "workflow_steps": 192,
+  "design_considerations": 142,
+  "FAQs": 12,
+  "local_validation": "passed",
+  "rfq_tests": "3 passed; no production test inquiries sent",
+  "browser_checks": [
+    "1440px desktop, 900px tablet, 390px mobile; no horizontal page overflow",
+    "Category filtering and visible counts",
+    "Image dialog next/previous, Escape and focus restoration",
+    "Component and process preselection in RFQ"
+  ],
+  "backend": "unchanged",
+  "previous_version": "0ad2f54c-9fa8-4c78-bfcd-cddfe826a75c",
+  "live_verification": [
+    "Live Components aluminum filter and both aluminum images verified in browser",
+    "Live RFQ material and process preselection verified",
+    "Backend unchanged; 56 modern pages pass static validation; three isolated RFQ tests pass",
+    "Complex five-axis aluminum collection visible live; aluminum filter now shows three collections",
+    "316 valve collection leads the live stainless category",
+    "Speaker grilles and plastic acoustic waveguides verified in their live categories"
+  ],
+  "new_process_images": 7,
+  "logo_update": {
+    "source": "Owner-supplied accent1.svg and blob-once.svg",
+    "validation": "Desktop and mobile wordmarks verified; live header/footer SVGs load and favicon link updated; original path geometry preserved"
+  },
+  "service_directory": {
+    "groups": 7,
+    "entries": 42,
+    "waterjet": false,
+    "rfq_preselection": "Laser Tube Cutting verified on mobile"
+  },
+  "illustrated_guides": {
+    "count": 42,
+    "new_images": 14,
+    "flow_diagrams": 42,
+    "steps": 168,
+    "design_tips": 126,
+    "application_examples": 126,
+    "validation": "All guide links, images, workflow SVGs and RFQ options checked; desktop and mobile layouts verified; live Overmolding preselection verified"
+  },
+  "material_collections": {
+    "homepage": 17,
+    "gallery": 17,
+    "materials": 6,
+    "photos_per_material": {
+      "aluminum": 3,
+      "stainless": 3,
+      "plastic": 3,
+      "brass": 2,
+      "silicone": 2,
+      "steel": 2
+    },
+    "images": "17 AI-generated multi-part illustrations with responsive WebP variants",
+    "browser_checks": [
+      "Desktop 1440px and mobile 390px, no horizontal overflow",
+      "Aluminum deep link, loaded images, viewer next and Escape",
+      "Silicone RFQ preselects part, process and material",
+      "New complex five-axis aluminum collection is first; viewer and quote link verified",
+      "316 valve collection viewer and Stainless steel 316 RFQ preselection verified",
+      "Large sheet metal deep link and Sheet Metal Fabrication quote mapping verified",
+      "Live plastic filter shows three collections with acoustic waveguides first; injection molding RFQ link verified",
+      "Live sheet metal and enclosures filter shows two collections with speaker grilles first"
+    ],
+    "filter_categories": 7,
+    "first_collection": "Speaker grilles & perforated panels",
+    "enclosure_collections": 2
+  },
+  "materials_library": {
+    "material_families": 23,
+    "finish_options": 35,
+    "checks": [
+      "56 pages static build passed",
+      "Local searches: 316 returns 2 material families; anodizing returns 2 finishes",
+      "Category filters: elastomers 2, mold textures 6",
+      "390px mobile layout has no horizontal overflow",
+      "SPI A finish RFQ message and Surface Finishing process prefilled",
+      "Live page reports 23 material families and 35 finishes"
+    ]
+  },
+  "quality_page": {
+    "management_principles": 6,
+    "inspection_checkpoints": 6,
+    "inspection_areas": 4,
+    "document_categories": 6,
+    "corrective_action_steps": 4,
+    "process_focus_areas": 6,
+    "faq": 5,
+    "iso_statement": "Owner confirmed management in accordance with ISO 9001:2015; management statement published without certification claims or badges.",
+    "checks": [
+      "56-page static validation passed",
+      "Desktop and mobile visual checks",
+      "No horizontal overflow on mobile",
+      "Quality RFQ message preselection verified",
+      "Live quality page heading and six documentation cards verified",
+      "Live ISO 9001:2015 management heading verified"
+    ]
+  },
+  "about_page": {
+    "images": 15,
+    "capability_cards": 8,
+    "application_groups": 3,
+    "project_stages": 5,
+    "checks": [
+      "56-page static validation passed",
+      "1440px desktop and 390px mobile without horizontal overflow",
+      "Mobile capability section visually checked",
+      "Project-review message prefilled in RFQ",
+      "Live headline, eight capabilities and 15 images verified"
+    ]
+  },
+  "contact_page": {
+    "sections": 3,
+    "tests": "5 passed, isolated from production",
+    "backend": "unchanged",
+    "checks": [
+      "New optional fields included in existing message payload",
+      "Attachment limits and extensions match backend",
+      "Desktop 1440px and mobile 390px layout checked",
+      "Mobile form appears before secondary contact content; no horizontal overflow",
+      "Part/process/material deep-link preselection retained",
+      "Live form sections, quantity field and upload guidance verified"
+    ]
+  },
+  "homepage_refresh": {
+    "capability_cards": 8,
+    "component_collections": 17,
+    "hero_images": 3,
+    "checks": [
+      "56-page static validation passed",
+      "1440px desktop and 390px mobile: no horizontal overflow",
+      "Process tab switching shows one selected panel",
+      "Aluminum filter returns three collections",
+      "Live headline and eight capability cards verified",
+      "All three live hero images loaded"
+    ]
+  },
+  "services_refresh": {
+    "services": 42,
+    "families": 7,
+    "svg_icon_placements": 60,
+    "checks": [
+      "56-page static validation passed",
+      "1440px desktop and 390px mobile layout checked; no overflow",
+      "Search laser returns 4 services; turning returns 2",
+      "Empty state and clear search verified",
+      "Category jump resets search and reveals target group",
+      "Laser Tube Cutting RFQ preselection verified",
+      "Live directory counts and all hero images verified"
+    ]
+  }
+}

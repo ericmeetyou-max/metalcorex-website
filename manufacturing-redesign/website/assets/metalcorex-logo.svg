@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" role="img" aria-labelledby="title desc">
+  <title id="title">Metalcorex</title>
+  <desc id="desc">Metalcorex precision manufacturing logo</desc>
+  <defs>
+    <linearGradient id="metalcorex-a" x1="12" y1="8" x2="78" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7DF"/>
+      <stop offset="0.52" stop-color="#168B6B"/>
+      <stop offset="1" stop-color="#C4873B"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#081412" d="M44 0 82 22v44L44 88 6 66V22z"/>
+    <path stroke="url(#metalcorex-a)" stroke-width="5" d="M44 6.5 76.4 25v38L44 81.5 11.6 63V25z"/>
+    <path fill="#fff" d="M25 59V28h8.7l10.4 17.9L54.5 28H63v31h-8.3V42.5l-8.4 14h-4.4l-8.4-14V59z"/>
+    <path fill="#F6FAF8" d="M105 29h15.2l9.4 27.6 9.4-27.6h15.1v42h-10.4V43.5L133.4 71h-7.7l-10.3-27.5V71H105zm59.5 0h30.3v8.8h-19.5v7.6h17.2V54h-17.2v8.2h20.1V71h-30.9zm40.4 0h35.7v9.1h-12.5V71h-10.8V38.1h-12.4zm49.4 0h10.4L281.1 71h-11.5l-2.8-7.4h-15.2l-2.8 7.4h-11zm9.4 26.3-4.5-12.6-4.5 12.6zm23.8-26.3h10.8v32.7h18.8V71h-29.6zm37.3 21.1c0-12.8 9.5-21.9 22.5-21.9 8.1 0 14.9 3.6 18.7 9.9l-8.4 5.5c-2.3-3.7-5.5-5.6-10-5.6-6.8 0-11.5 5-11.5 12.1s4.7 12.1 11.5 12.1c4.5 0 7.8-1.9 10-5.7l8.4 5.5c-3.8 6.4-10.6 10-18.7 10-13 0-22.5-9.1-22.5-21.9"/>
+  </g>
+</svg>

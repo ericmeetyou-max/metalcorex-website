@@ -1,0 +1,93 @@
+[
+  {
+    "key": "cnc",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Close-up inside a precision CNC machining center: a single physically plausible carbide end mill cutting the top pocket edge of a silver aluminum housing securely clamped in a vise. Tiny curled metal chips, restrained coolant droplets, crisp machined toolpaths, defocused dark machine background. No people. Tool is touching a real accessible edge; no impossible floating hardware. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/cnc.png",
+    "website_asset": "website/assets/process-v3/cnc.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 232318,
+    "card_bytes": 78086
+  },
+  {
+    "key": "sheet",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Close-up of a press brake bending a clean brushed stainless steel sheet into a precise right-angle bracket. Clearly defined upper punch and lower V die, believable bend and tooling contact. Sharp metal textures, dark graphite equipment background. No people, no sparks, no laser cutting scene. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/sheet.png",
+    "website_asset": "website/assets/process-v3/sheet.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 195816,
+    "card_bytes": 48686
+  },
+  {
+    "key": "molding",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Close-up of an open injection mold with two polished steel tool halves and a freshly molded matte-black engineering plastic housing visible on the ejector side. Crisp realistic cavity details, guide pillars, restrained shallow depth of field. Clean industrial setting, dark graphite background. No people and no molten glowing plastic. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/molding.png",
+    "website_asset": "website/assets/process-v3/molding.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 285884,
+    "card_bytes": 77298
+  },
+  {
+    "key": "casting",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Premium close-up of a newly trimmed aluminum die-cast gearbox housing next to its steel die cavity. Matte granular as-cast surface, thin ribs, bosses, precise circular machined mating face, credible mechanical geometry. Controlled industrial lighting on a clean dark gray work surface. No people, no exaggerated fire or sparks. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/casting.png",
+    "website_asset": "website/assets/process-v3/casting.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 301940,
+    "card_bytes": 78700
+  },
+  {
+    "key": "extrusion",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Premium industrial product close-up showing several freshly cut aluminum extrusion profiles: a finely ribbed heatsink, hollow rectangular channel and T-slot rail, arranged diagonally with crisp cross-sections facing camera. Beautiful satin silver metal, long continuous axial lines, graphite background, restrained blue reflections. No people. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/extrusion.png",
+    "website_asset": "website/assets/process-v3/extrusion.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 197600,
+    "card_bytes": 57034
+  },
+  {
+    "key": "printing",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Macro editorial photograph inside a clean additive manufacturing machine: a single brass FDM nozzle above the top edge of an off-white engineering polymer bracket on a dark build plate, fine horizontal layers, credible supported arched geometry, precise extruder position and crisp surface details. No people, no glowing lasers, no stringing mess. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/printing.png",
+    "website_asset": "website/assets/process-v3/printing.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 134412,
+    "card_bytes": 38042
+  },
+  {
+    "key": "assembly",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: premium B2B manufacturing website capability photograph, landscape 3:2. Create a sharp high-resolution editorial industrial process illustration with sophisticated lighting, authentic fine material textures and plausible engineering details. Close-up of a carefully arranged mechanical subassembly on a clean dark graphite workstation: silver CNC housing, black sheet-metal cover, two aligned dowel pins and a short row of identical socket-head screws. One gloved hand uses a precision hex driver on an accessible screw. Tight framing, realistic hardware, no circuit boards, no floating exploded parts. Composition: one clear focal subject filling 75% of frame, enough margin for responsive crops, no collage. Neutral graphite, silver and restrained cool blue palette, soft directional highlights, deep but readable shadows. No text, logos, watermarks, fake labels or branding. This is an illustrative process image, not documentary evidence of a specific factory.",
+    "original": "originals/assembly.png",
+    "website_asset": "website/assets/process-v3/assembly.webp",
+    "delivery_dimensions": [
+      1536,
+      1024
+    ],
+    "web_bytes": 221236,
+    "card_bytes": 59238
+  }
+]

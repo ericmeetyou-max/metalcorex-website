@@ -1,0 +1,264 @@
+{
+  "confirmed_by_owner": "All Xometry service categories except waterjet cutting",
+  "groups": [
+    [
+      "CNC Machining",
+      "cnc-machining",
+      "cnc",
+      [
+        [
+          "CNC Milling",
+          "cnc-milling",
+          "Milled pockets, faces, holes and complex metal or plastic components."
+        ],
+        [
+          "CNC Turning",
+          "cnc-turning",
+          "Rotational components with defined diameters, bores, grooves and threads."
+        ],
+        [
+          "CNC Routing",
+          "cnc-routing",
+          "Profile cutting and machining for suitable sheet and panel materials."
+        ],
+        [
+          "Swiss-Type Turning",
+          "swiss-turning",
+          "Small turned components with features reviewed for sliding-headstock production."
+        ],
+        [
+          "Micro Machining",
+          "micro-machining",
+          "Small-scale features and components with project-specific tooling and measurement review."
+        ]
+      ]
+    ],
+    [
+      "Sheet & Tube Fabrication",
+      "sheet-metal-fabrication",
+      "sheet",
+      [
+        [
+          "Sheet Metal Fabrication",
+          "sheet-metal-fabrication",
+          "Cutting, bending, hardware insertion and joining for fabricated components."
+        ],
+        [
+          "Sheet Cutting",
+          "sheet-cutting",
+          "Drawing-based blanks, profiles, slots and holes for further fabrication."
+        ],
+        [
+          "Laser Cutting",
+          "laser-cutting",
+          "Laser-cut sheet profiles and features, reviewed by material and thickness."
+        ],
+        [
+          "Laser Tube Cutting",
+          "laser-tube-cutting",
+          "Cut profiles and openings in round, square or rectangular tube."
+        ],
+        [
+          "Tube Bending",
+          "tube-bending",
+          "Formed tube components with bend geometry and end requirements reviewed together."
+        ]
+      ]
+    ],
+    [
+      "Injection Molding",
+      "injection-molding",
+      "molding",
+      [
+        [
+          "Plastic Injection Molding",
+          "plastic-injection-molding",
+          "Tooling and molded thermoplastic components for custom applications."
+        ],
+        [
+          "Prototype Molding",
+          "prototype-molding",
+          "Molded samples and early production for design and material validation."
+        ],
+        [
+          "Production Molding",
+          "production-molding",
+          "Repeat molded-part production to an approved tool and part specification."
+        ],
+        [
+          "Insert Molding",
+          "insert-molding",
+          "Molded plastic integrated with specified inserts or other embedded components."
+        ],
+        [
+          "Overmolding",
+          "overmolding",
+          "A secondary molded material around a compatible substrate or component."
+        ],
+        [
+          "Micro Molding",
+          "micro-molding",
+          "Small molded components with dedicated review of tooling, filling and inspection."
+        ]
+      ]
+    ],
+    [
+      "Additive Manufacturing",
+      "3d-printing",
+      "printing",
+      [
+        [
+          "Plastic 3D Printing",
+          "plastic-3d-printing",
+          "Polymer prototypes and production candidates selected around intended use."
+        ],
+        [
+          "Fused Deposition Modeling (FDM)",
+          "fdm",
+          "Extruded thermoplastic layers for prototypes, fixtures and application-specific parts."
+        ],
+        [
+          "HP Multi Jet Fusion (MJF)",
+          "mjf",
+          "Polymer powder-bed production with material and finishing selected for the application."
+        ],
+        [
+          "Selective Laser Sintering (SLS)",
+          "sls",
+          "Laser-sintered polymer parts for geometry studies and functional applications."
+        ],
+        [
+          "Stereolithography (SLA)",
+          "sla",
+          "Resin parts for fine-detail prototypes and appearance or fit evaluation."
+        ],
+        [
+          "PolyJet",
+          "polyjet",
+          "Material-jetting options for detailed models and application-specific material combinations."
+        ],
+        [
+          "Carbon DLS",
+          "carbon-dls",
+          "Resin-based additive manufacturing with material and post-processing review."
+        ],
+        [
+          "Metal 3D Printing",
+          "metal-3d-printing",
+          "Metal additive parts reviewed for build strategy, post-processing and inspection."
+        ],
+        [
+          "Direct Metal Laser Sintering (DMLS)",
+          "dmls",
+          "Laser powder-bed metal components with application-specific build and finishing requirements."
+        ],
+        [
+          "Metal Binder Jetting",
+          "metal-binder-jetting",
+          "Binder-based metal powder processing with subsequent consolidation and finishing review."
+        ],
+        [
+          "Production 3D Printing",
+          "production-3d-printing",
+          "Repeat additive manufacturing with an agreed material, revision and acceptance plan."
+        ],
+        [
+          "Vapor Smoothing",
+          "vapor-smoothing",
+          "Surface smoothing for compatible printed polymers, reviewed for fit and appearance."
+        ]
+      ]
+    ],
+    [
+      "Other Plastic Production",
+      "injection-molding",
+      "molding",
+      [
+        [
+          "Urethane & Silicone Casting",
+          "urethane-silicone-casting",
+          "Cast polymer parts for prototypes and selected low-volume applications."
+        ],
+        [
+          "Compression Molding",
+          "compression-molding",
+          "Molded components formed under heat and pressure using a compatible material system."
+        ],
+        [
+          "Plastic Extrusion",
+          "plastic-extrusion",
+          "Continuous plastic profiles completed with cutting and secondary operations."
+        ]
+      ]
+    ],
+    [
+      "Metal Part Production",
+      "die-casting",
+      "casting",
+      [
+        [
+          "Die Casting",
+          "die-casting",
+          "Cast metal shapes completed with trimming, machining and finishing as required."
+        ],
+        [
+          "Metal Stamping",
+          "metal-stamping",
+          "Blanked, pierced and formed sheet-metal parts with tooling reviewed for production quantity."
+        ],
+        [
+          "Metal Extrusion",
+          "metal-extrusion",
+          "Custom metal profiles, including aluminum extrusion, with cut-to-length and machining options."
+        ]
+      ]
+    ],
+    [
+      "Value-Added Services",
+      "assembly-services",
+      "assembly",
+      [
+        [
+          "Assembly Services",
+          "assembly-services",
+          "Coordinated mechanical components, bought-in hardware, inspection and packing."
+        ],
+        [
+          "Weldments",
+          "weldments",
+          "Welded components and structures with joint, distortion and finishing requirements defined."
+        ],
+        [
+          "Rapid Prototyping",
+          "rapid-prototyping",
+          "Combine machining, printing and fabrication around the next design decision."
+        ],
+        [
+          "High-Volume Production",
+          "high-volume-production",
+          "Plan repeat supply around tooling, capacity, revision control and the agreed inspection scope."
+        ],
+        [
+          "Precision Grinding",
+          "precision-grinding",
+          "Ground features with surface and dimensional requirements defined on the drawing."
+        ],
+        [
+          "Surface Grinding",
+          "surface-grinding",
+          "Flat ground surfaces with material condition and measurement requirements reviewed."
+        ],
+        [
+          "Powder Coating",
+          "powder-coating",
+          "Coated metal surfaces with agreed color, texture, masking and preparation requirements."
+        ],
+        [
+          "Surface Finishing",
+          "surface-finishing",
+          "Anodizing, blasting, brushing, polishing and other project-specific surface treatments."
+        ]
+      ]
+    ]
+  ]
+}
