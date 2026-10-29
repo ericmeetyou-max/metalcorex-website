@@ -371,7 +371,7 @@ if (form) {
   drawingsInput?.addEventListener("change", updateFileSummary);
   refreshRfqGuard();
 
-  form.addEventListener("submit", async (event) => {
+  if (!form.dataset.enhancedRfq) form.addEventListener("submit", async (event) => {
     event.preventDefault();
 
     const status = document.querySelector("#rfqStatus");
